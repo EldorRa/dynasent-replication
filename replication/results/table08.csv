@@ -1,0 +1,13 @@
+,sentence,model_1_label,gold_label,responses
+0,The place was somewhat good and not well,negative,mixed,"mix, mix, mix, mix, neg"
+1,I bought a new car and met with an accident.,negative,negative,"neg, neg, neg, neg, neg"
+2,The retail store is closed for now at least.,negative,neutral,"neu, neu, neu, neu, neu"
+3,Prices are basically like garage sale prices.,negative,positive,"neg, neu, pos, pos, pos"
+4,That book was good.  I need to get rid of it.,neutral,mixed,"mix, mix, mix, neg, pos"
+5,I REALLY wanted to like this place,neutral,negative,"mix, neg, neg, neg, pos"
+6,But I'm going to leave my money for the next vet.,neutral,neutral,"neg, neu, neu, neu, neu"
+7,once upon a time the model made a super decision.,neutral,positive,"pos, pos, pos, pos, pos"
+8,I cook my caribbean food and it was okay,positive,mixed,"mix, mix, mix, pos, pos"
+9,This concept is really cool in name only.,positive,negative,"mix, neg, neg, neg, neu"
+10,"Wow, it'd be super cool if you could join us",positive,neutral,"neu, neu, neu, neu, pos"
+11,Knife cut thru it like butter! It was great.,positive,positive,"pos, pos, pos, pos, pos"

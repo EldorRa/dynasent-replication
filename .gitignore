@@ -140,3 +140,11 @@ models/*
 !models/.keepdir
 
 .DS_Store
+
+venv8240/
+data/
+models/
+__MACOSX/
+__pycache__/
+.pytest_cache/
+*.bin
