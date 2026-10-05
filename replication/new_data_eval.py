@@ -37,9 +37,9 @@ REFERENCE_GAPS = {
 
 
 def load_recipe(name, limit=None):
-    from external_data import _hf
+    from datasets import load_dataset as hf_load
     r = RECIPES[name]
-    ds = _hf(r["hf"], name=r["config"], split=r["split"])
+    ds = hf_load(r["hf"], r["config"], split=r["split"])
     rows = [(x[r["text"]], r["label_map"][x["label"]]) for x in ds]
     if limit:
         rows = rows[:limit]
