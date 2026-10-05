@@ -1,6 +1,7 @@
 import argparse
 import io
 import os
+import re
 import time
 import urllib.request
 import zipfile
@@ -173,6 +174,17 @@ def _leaves(line):
     return " ".join(walk(_parse_ptb(line)))
 
 
+def _detokenise(s):
+    s = s.replace("\\/", "/")
+    s = re.sub(r" ?'' ?", '"', s)
+    s = re.sub(r" ?`` ?", "``", s)
+    s = s.replace(" -- ", "--")
+    s = re.sub(r" (?=[.,;:!?%)\]}])", "", s)
+    s = re.sub(r"(?<=[(\[{]) ", "", s)
+    s = re.sub(r" (n't|'s|'m|'re|'ve|'ll|'d)\b", r"\1", s)
+    return s
+
+
 def build_sst(out_dir):
     print(f"SST -- downloading {SST_TREES_URL}")
     local = "trainDevTestTrees_PTB.zip"
@@ -200,19 +212,36 @@ def build_sst(out_dir):
             raise SystemExit(f"  {split}.txt not found in the zip")
         print(f"  trees/{split}.txt: {len(trees[split]):,} sentences")
 
-    for split, name, expect in (("dev", "sst3_dev", 1101),
-                                ("test", "sst3_test", 2210)):
-        rows = [(_leaves(line), SST_TO_TERNARY[int(line.strip()[1])])
-                for line in trees[split] if line.strip()]
-        flag = "ok " if len(rows) == expect else "note"
-        print(f"  {flag} {name}: {len(rows):,} sentences (SST has {expect:,})")
-        _dump(rows, out_dir, name)
+    release = load_dataset(SST_DEV)
+    exact = sum(1 for d in release
+                if _detokenise(_leaves(d["tree"])) == d["sentence"])
+    print(f"  detokeniser agrees with the DynaSent text on "
+          f"{exact:,}/{len(release):,} dev sentences "
+          f"({100 * exact / len(release):.1f}%)")
+
+    seen, dev = set(), []
+    for d in release:
+        if d["sentence"] in seen:
+            continue
+        seen.add(d["sentence"])
+        dev.append((d["sentence"], SST_TO_TERNARY[int(d["sst_label"])]))
+    print(f"  ok  sst3_dev: {len(dev):,} sentences taken verbatim from "
+          f"sst-dev-validated.jsonl (deduplicated)")
+    _dump(dev, out_dir, "sst3_dev")
+
+    test = [(_detokenise(_leaves(line)), SST_TO_TERNARY[int(line.strip()[1])])
+            for line in trees["test"] if line.strip()]
+    flag = "ok " if len(test) == 2210 else "note"
+    print(f"  {flag} sst3_test: {len(test):,} sentences detokenised from the "
+          f"trees (SST has 2,210)")
+    _dump(test, out_dir, "sst3_test")
 
     seen, rows = set(), []
     for line in trees["train"]:
         if not line.strip():
             continue
         for text, label in _subtrees(line):
+            text = _detokenise(text)
             if text in seen:
                 continue
             seen.add(text)
