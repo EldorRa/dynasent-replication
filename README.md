@@ -1,340 +1,254 @@
-# DynaSent: Dynamic Sentiment Analysis Dataset
+# DynaSent: A Replication, and an Application to New Data
 
-DynaSent is an English-language benchmark task for ternary (positive/negative/neutral) sentiment analysis.
+COMP8240 Applications of Data Science — Macquarie University
+Eldor Rakhmonaliev (48756997)
 
-## Contents
+A replication of **DynaSent: A Dynamic Benchmark for Sentiment Analysis**
+(Potts, Wu, Geiger & Kiela, ACL-IJCNLP 2021,
+[arXiv:2012.15349](https://arxiv.org/abs/2012.15349)), followed by an
+application of the paper's method to two corpora the authors never saw.
 
-* [Citation](#Citation)
-* [Dataset files](#dataset-files)
-* [Quick start](#quick-start)
-* [Data format](#data-format)
-* [Models](#models)
-* [Other files](#other-files)
-* [License](#license)
+---
 
+## Relationship to the original repository
 
-## Citation
+This repository **descends from the authors' own release** at
+[cgpotts/dynasent](https://github.com/cgpotts/dynasent), so its early
+history and the `dynasent-v1.1/` data are theirs, not mine.
 
-[Christopher Potts](http://web.stanford.edu/~cgpotts/), [Zhengxuan Wu](http://zen-wu.social), Atticus Geiger, and [Douwe Kiela](https://douwekiela.github.io). 2020. [DynaSent: A dynamic benchmark for sentiment analysis](https://arxiv.org/abs/2012.15349). Ms., Stanford University and Facebook AI Research.
+Everything under `replication/` is my own work, as are everything in
+`results/` and `replication/results/`, the notebooks, and this README.
 
-```stex
-  @article{potts-etal-2020-dynasent,
-    title={{DynaSent}: A Dynamic Benchmark for Sentiment Analysis},
-    author={Potts, Christopher and Wu, Zhengxuan and Geiger, Atticus and Kiela, Douwe},
-    journal={arXiv preprint arXiv:2012.15349},
-    url={https://arxiv.org/abs/2012.15349},
-    year={2020}}
+---
+
+## Headline findings
+
+**All ten tables attempted reproduce exactly** — but two of them only
+after corrections the paper does not specify.
+
+| | What went wrong | Effect |
+|---|---|---|
+| **SST-3** | The Treebank ships tokenised. A whitespace join gives `the food was good .`; the model was trained on `the food was good.` | Neutral F1 **12.6 → 45.7** against a published 45.4 |
+| **Amazon** | The corpus stores review title and body in separate columns. The paper does not say which it used. | Body alone reproduces all 16 cells exactly; title+body runs **+0.7 to +2.9** high |
+
+On new data, the paper's central claim holds. The *neutral gap* — the
+margin by which the mean of positive and negative F1 exceeds neutral F1 —
+falls from **19.6 to 1.4** on SemEval-2017 tweets and from **38.3 to 16.1**
+on a Google Local corpus I built and labelled with a five-model judge
+panel calibrated at 83.5% agreement against DynaSent's own human
+annotations.
+
+---
+
+## Setup
+
+```bash
+git clone https://github.com/EldorRa/dynasent-replication.git
+cd dynasent-replication
+python -m venv venv
+venv\Scripts\activate          # Windows;  source venv/bin/activate on Unix
+pip install -r requirements.txt
 ```
 
-## Dataset files
+A CUDA GPU is strongly recommended. Scoring all external corpora is about
+1.4 million forward passes and takes roughly three hours per model on an
+RTX 4070 Laptop; on CPU it is impractical.
 
-The dataset is [dynasent-v1.1.zip](dynasent-v1.1.zip), which is included in this repository. `v1.1` differs from `v1` only in that `v1.1` has proper unique ids for Round 1 and corrects a bug that led to some non-unique ids in Round 2. There are no changes to the examples or other metadata.
+### Data and models not in this repository
 
-The dataset consists of two rounds, each with a train/dev/test split:
+Three things are excluded for size and must be fetched separately.
 
+| What | Where it goes | Why it is not here |
+|---|---|---|
+| `dynasent_model0.bin`, `dynasent_model1.bin` | `models/` | Linked from the [official DynaSent repository](https://github.com/cgpotts/dynasent) |
+| External corpora (Yelp, Amazon, IMDB, SST, CR) | `data/` | Rebuilt by `external_data.py --build`; `amazon_train.csv` alone is 1.28 GB |
+| `review-Hawaii.json.gz` | repository root | 290 MB. The Hawaii slice of the [Google Local review data](https://jiachengli1995.github.io/google/index.html) (McAuley lab, UCSD) |
 
-### Round 1: Naturally occurring sentences
+`dynasent-v1.1/` **is** included, inherited from the authors' release.
 
-* `dynasent-v1.1-round01-yelp-train.jsonl`
-* `dynasent-v1.1-round01-yelp-dev.jsonl`
-* `dynasent-v1.1-round01-yelp-test.jsonl`
+The Google Local file is downloaded from
+[mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal](https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/).
+Its authors ask that two papers be cited — Li, Shang & McAuley (ACL 2022)
+and Yan et al. (SIGIR 2023); both are in `references.bib`.
 
+Each review record carries `user_id`, `name`, `time`, `rating`, `text`,
+`pics`, `resp` and `gmap_id`. **`name` is the reviewer's own name.**
 
-### Round 2: Sentences crowdsourced using Dynabench
+`google_local.py` reads `text`, `rating`, `gmap_id` and `time`. The
+reviewer's name and `user_id` are never read. The intermediate
+`data/google_local_prompts.csv` keeps `gmap_id` and `review_time` as
+business-level keys, and that file is not committed. The published
+`results/validated_*.csv` carry only the sentence, the panel labels, the
+star-derived label and the star rating — no business key, no timestamp.
 
-* `dynasent-v1.1-round02-dynabench-train.jsonl`
-* `dynasent-v1.1-round02-dynabench-dev.jsonl`
-* `dynasent-v1.1-round02-dynabench-test.jsonl`
+### For the judge panel only
 
+The annotation stage runs five local language models through
+[Ollama](https://ollama.com), entirely offline and at no cost:
 
-### SST-dev revalidation
-
-The dataset also contains a version of the [Stanford Sentiment Treebank](https://nlp.stanford.edu/sentiment/) dev set in our format with labels from our validation task:
-
-* `sst-dev-validated.jsonl`
-
-
-## Quick start
-
-This function can be used to load any subset of the files:
-
-```python
-import json
-
-def load_dataset(*src_filenames, labels=None):
-    data = []
-    for filename in src_filenames:
-        with open(filename) as f:
-            for line in f:
-                d = json.loads(line)
-                if labels is None or d['gold_label'] in labels:
-                    data.append(d)
-    return data
+```bash
+ollama pull llama3.1:8b
+ollama pull qwen2.5:7b
+ollama pull mistral:7b
+ollama pull gemma2:9b
+ollama pull phi3:mini
 ```
 
-For example, to create a Round 1 train set restricting to examples with ternary gold labels:
+---
 
-```python
-import os
+## Part 1 — Reproducing the paper
 
-r1_train_filename = os.path.join('dynasent-v1.1', 'dynasent-v1.1-round01-yelp-train.jsonl')
+Run in this order. Scripts not listed with flags take no arguments.
 
-ternary_labels = ('positive', 'negative', 'neutral')
+```bash
+# Sanity checks
+python replication/check_setup.py
+python replication/check_model.py --model models/dynasent_model1.bin
 
-r1_train = load_dataset(r1_train_filename, labels=ternary_labels)
+# Build the five external training corpora into data/   (slow: ~1 GB written)
+python replication/external_data.py --build
 
-X_train, y_train = zip(*[(d['sentence'], d['gold_label']) for d in r1_train])
+# Table 1 — external corpus statistics, 24 cells
+python replication/external_data.py --table1
+
+# Tables 4, 7, 10 — dataset composition, both rounds
+python replication/dataset_tables.py
+
+# Tables 3, 8 — worked examples from each round
+python replication/example_tables.py
+
+# Tables 6, 9 — human performance and Fleiss' kappa
+python replication/human_performance.py
+
+# Tables 2b and 5b — model scores on every corpus
+# --external-dir is REQUIRED; without it the external corpora are skipped
+python replication/evaluate.py --model models/dynasent_model0.bin \
+    --which model0 --external-dir data
+python replication/evaluate.py --model models/dynasent_model1.bin \
+    --which model1 --external-dir data
 ```
 
-DynaSent rounds can also be accessed directly using the [HuggingFace Datasets](https://huggingface.co/datasets/dynabench/dynasent) library:
+### The Amazon text-field diagnostic
 
-```python
-"""
-Make sure you install the Datasets library using:
-pip install datasets
-"""
-from datasets import load_dataset
+`external_data.py` builds the Amazon splits from the `content` column
+alone. To reproduce the comparison in §3.5 of the report, keep a
+title+body build alongside it as `data/amazon_test.titlecontent.csv`,
+then:
 
-r1_dataset = load_dataset("dynabench/dynasent", "dynabench.dynasent.r1.all")
-
-r2_dataset = load_dataset("dynabench/dynasent", "dynabench.dynasent.r2.all")
+```bash
+python replication/amazon_ab.py --sample 25000
 ```
 
-## Data format
+This scores both builds on identical row indices, so the text field is the
+only thing that differs. Output: `replication/results/table05c_amazon_ab.csv`.
 
-### Round 1 format
+### Optional
 
-```python
-{'hit_ids': ['y5238'],
- 'sentence': 'Roto-Rooter is always good when you need someone right away.',
- 'indices_into_review_text': [0, 60],
- 'model_0_label': 'positive',
- 'model_0_probs': {'negative': 0.01173639390617609,
-  'positive': 0.7473671436309814,
-  'neutral': 0.24089649319648743},
- 'text_id': 'r1-0000001',
- 'review_id': 'IDHkeGo-nxhqX4Exkdr08A', 
- 'review_rating': 1,
- 'label_distribution': {'positive': ['w130', 'w186', 'w207', 'w264', 'w54'],
-  'negative': [],
-  'neutral': [],
-  'mixed': []},
- 'gold_label': 'positive'}
+```bash
+# Retrain from scratch instead of using the released binaries
+python replication/train.py --train <files> --dev <files> --out models/mine.bin
+
+# Inoculation-by-fine-tuning experiment (not part of the replicated tables)
+python replication/inoculation.py --base-model models/dynasent_model0.bin
 ```
 
-Details:
+---
 
-* `'hit_ids'`: List of Amazon Mechanical Turk Human Interface Tasks (HITs) in which this example appeared during validation. The values are anonymized but used consistently throughout the dataset.
-* `'sentence'`: The example text.
-* `'indices_into_review_text':` indices of `'sentence'` into the original review in the [Yelp Academic Dataset](https://www.yelp.com/dataset).
-* `'model_0_label'`: prediction of Model 0 as described in the paper. The possible values are `'positive'`, `'negative'`, and `'neutral'`.
-* `'model_0_probs'`: probability distribution predicted by Model 0. The keys are `('positive', 'negative', 'neutral')` and the values are floats.
-* `'text_id'`: unique identifier for this entry.
-* `'review_id'`: review-level identifier for the review from the [Yelp Academic Dataset](https://www.yelp.com/dataset) containing `'sentence'`.
-* `'review_rating'`: review-level star-rating for the review containing `'sentence'` in the [Yelp Academic Dataset](https://www.yelp.com/dataset). The possible values are `1`, `2`, `3`, `4`, and `5`.
-* `'label_distribution':` response distribution from the MTurk validation task. The keys are `('positive', 'negative', 'neutral')` and the values are lists of anonymized MTurk ids, which are used consistently throughout the dataset.
-* `'gold_label'`: the label chosen by at least three of the five workers if there is one (possible values: `'positive'`, `'negative'`, '`neutral'`, and `'mixed'`), else `None`. 
+## Part 2 — New data
 
-Here is some code one could use to augment a dataset, as loaded by `load_dataset`, with a field giving the full review text from the [Yelp Academic Dataset](https://www.yelp.com/dataset):
+### New existing dataset: SemEval-2017 Task 4A
 
-```python
-import json
-
-def index_yelp_reviews(yelp_src_filename='yelp_academic_dataset_review.json'):
-    index = {}
-    with open(yelp_src_filename) as f:
-        for line in f:
-            d = json.loads(line)
-            index[d['review_id']] = d['text']
-    return index
-
-yelp_index = index_yelp_reviews()
-
-def add_review_text_round1(dataset, yelp_index):
-    for d in dataset:
-        review_text = yelp_index[d['text_id']]
-        # Check that we can find the sentence as expected:
-        start, end = d['indices_into_review_text']
-        assert review_text[start: end] == d['sentence']
-        d['review_text'] = review_text
-    return dataset
+```bash
+python replication/new_data_eval.py --dataset tweet_eval
 ```
 
-### Round 2 format
+### Constructed dataset: Google Local reviews (Hawaii)
 
-```python
-{'hit_ids': ['y22661'],
- 'sentence': "We enjoyed our first and last meal in Toronto at Bombay Palace, and I can't think of a better way to book our journey.",
- 'sentence_author': 'w250',
- 'has_prompt': True,
- 'prompt_data': {'indices_into_review_text': [2093, 2213],
-  'review_rating': 5,
-  'prompt_sentence': "Our first and last meals in Toronto were enjoyed at Bombay Palace and I can't think of a better way to bookend our trip.",
-  'review_id': 'Krm4kSIb06BDHternF4_pA'},
- 'model_1_label': 'positive',
- 'model_1_probs': {'negative': 0.29140257835388184,
-  'positive': 0.6788994669914246,
-  'neutral': 0.029697999358177185},
- 'text_id': 'r2-0000001',
- 'label_distribution': {'positive': ['w43', 'w26', 'w155', 'w23'],
-  'negative': [],
-  'neutral': [],
-  'mixed': ['w174']},
- 'gold_label': 'positive'}
- ```
+```bash
+# 1. Sample balanced candidate sentences from the raw reviews
+python replication/google_local.py --input review-Hawaii.json.gz \
+    --per-star 400 --out data/google_local_prompts.csv
 
-Details:
+# 2. Keep those where Model 1 contradicts the star-derived label
+python replication/harvest_adversarial.py \
+    --prompts data/google_local_prompts.csv \
+    --out data/round3_candidates.csv
 
-* `'hit_ids'`: List of Amazon Mechanical Turk Human Interface Tasks (HITs) in which this example appeared during validation. The values are anonymized but used consistently throughout the dataset.
-* `'sentence'`: The example text.
-* `'sentence_author'`:  Anonymized MTurk id of the worker who wrote `'sentence'`. These are from the same family of ids as used in `'label_distribution'`, but this id is never one of the ids in `'label_distribution'` for this example.
-* `'has_prompt'`: `True` if the `'sentence'` was written with a Prompt else `False`.
-* `'prompt_data'`: None if `'has_prompt'` is False, else:
-  * `'indices_into_review_text'`: indices of `'prompt_sentence'` into the original review in the [Yelp Academic Dataset](https://www.yelp.com/dataset).
-  * `'review_rating'`: review-level star-rating for the review containing `'sentence'` in the [Yelp Academic Dataset](https://www.yelp.com/dataset).
-  * `'prompt_sentence'`: The prompt text.
-  * `'review_id'`: review-level identifier for the review from the [Yelp Academic Dataset](https://www.yelp.com/dataset) containing `'prompt_sentence'`.
-* `'model_1_label'`: prediction of Model 1 as described in the paper. The possible values are `'positive'`, `'negative'`, and '`neutral'`.
-* `'model_1_probs'`: probability distribution predicted by Model 1. The keys are `('positive', 'negative', 'neutral')` and the values are floats.  
-* `'text_id'`: unique identifier for this entry.
-* `'label_distribution'`: response distribution from the MTurk validation task. The keys are  `('positive', 'negative', 'neutral')` and the values are lists of anonymized MTurk ids, which are used consistently throughout the dataset.
-* `'gold_label'`: the label chosen by at least three of the five workers if there is one (possible values: `'positive'`, `'negative'`, '`neutral'`, and `'mixed'`), else `None`. 
+# 3. Label them with the five-model judge panel (Ollama must be running).
+#    Resumable: re-running skips judgements already in the ballots file.
+python replication/validate.py --input data/round3_candidates.csv \
+    --ballots results/ballots_round3.jsonl
 
-To add the review texts to the `'prompt_data'` field, one can extend the code above for Round 1 with the following function:
+# 4. Fleiss' kappa, majority vote, and the validated gold labels
+python replication/agreement.py --ballots results/ballots_round3.jsonl \
+    --out results/validated_round3.csv
 
-```python
-def add_review_text_round2(dataset, yelp_index):
-    for d in dataset:
-        if d['has_prompt']:
-            prompt_data = d['prompt_data']
-            review_text = yelp_index[prompt_data['review_id']]
-            # Check that we can find the sentence as expected:
-            start, end = prompt_data['indices_into_review_text']
-            assert review_text[start: end] == prompt_data['prompt_sentence']
-            prompt_data['review_text'] = review_text
-    return dataset
+# 5. Score both models against the validated gold
+python replication/score_validated.py \
+    --validated results/validated_round3.csv \
+    --out results/table06_new_data.csv
 ```
 
-### SST-dev format
+**Check the panel before trusting it.** Run steps 3 and 4 first on
+DynaSent's own development set, where human labels already exist:
 
-```python
-{'hit_ids': ['s20533'],
- 'sentence': '-LRB- A -RRB- n utterly charming and hilarious film that reminded me of the best of the Disney comedies from the 60s.',
- 'tree': '(4 (2 (1 -LRB-) (2 (2 A) (3 -RRB-))) (4 (4 (2 n) (4 (3 (2 utterly) (4 (3 (4 charming) (2 and)) (4 hilarious))) (3 (2 film) (3 (2 that) (4 (4 (2 (2 reminded) (3 me)) (4 (2 of) (4 (4 (2 the) (4 best)) (2 (2 of) (3 (2 the) (3 (3 Disney) (2 comedies))))))) (2 (2 from) (2 (2 the) (2 60s)))))))) (2 .)))',
- 'text_id': 'sst-dev-validate-0000437',
- 'sst_label': '4',
- 'label_distribution': {'positive': ['w207', 'w3', 'w840', 'w135', 'w26'],
-  'negative': [],
-  'neutral': [],
-  'mixed': []},
- 'gold_label': 'positive'}
+```bash
+python replication/validate.py --input dynasent-v1.1/dynasent-v1.1-round01-yelp-dev.jsonl \
+    --limit 200 --ballots results/ballots_calibration.jsonl
+python replication/agreement.py --ballots results/ballots_calibration.jsonl
 ```
 
-Details:
+This reports the panel's agreement with human gold. Mine was 83.5%
+(macro F1 83.4), against the 88.0 the authors estimate for a human
+annotator. That number is what makes the substitution defensible; without
+it the panel is an unvalidated instrument.
 
-* `'hit_ids'`: List of Amazon Mechanical Turk Human Interface Tasks (HITs) in which this example appeared during validation. The values are anonymized but used consistently throughout the dataset.
-* `'sentence'`: The example text.
-* `'tree'`: The parsetree for the example as given in the SST distribution.
-* `'text_id'`: A new identifier for this example.
-* `'sst_label'`: The root-node label from the SST. Possible values `'0'`, `'1'` `'2'`, `'3'`, and `'4'`.
-* `'label_distribution':` response distribution from the MTurk validation task. The keys are  `('positive', 'negative', 'neutral')` and the values are lists of anonymized MTurk ids, which are used consistently throughout the dataset.
-* `'gold_label'`: the label chosen by at least three of the five workers if there is one (possible values: `'positive'`, `'negative'`, '`neutral'`, and `'mixed'`), else `None`.
+### Avoiding a selection effect
 
+The harvested candidates were chosen *by* Model 1, so scoring Model 1 on
+them is circular. The unbiased comparison repeats the pipeline on a random
+sample of the prompts rather than the harvested subset:
 
-## Models
-
-Model 0 and Model 1 from the paper are available here:
-
-https://drive.google.com/drive/folders/1dpKrjNJfAILUQcJPAFc5YOXUT51VEjKQ?usp=sharing
-
-This repository includes a Python module `dynasent_models.py` that provides a [Hugging Face](https://huggingface.co)-based wrapper around these ([PyTorch](https://pytorch.org)) models. Simple examples:
-
-```python
-import os
-from dynasent_models import DynaSentModel
-
-# `dynasent_model0` should be downloaded from the above Google Drive link and 
-# placed in the `models` directory. `dynasent_model1` works the same way.
-model = DynaSentModel(os.path.join('models', 'dynasent_model0.bin'))
-
-examples = [
-    "superb",
-    "They said the experience would be amazing, and they were right!",
-    "They said the experience would be amazing, and they were wrong!"]
-
-model.predict(examples)
-```
-This should return the list `['positive', 'positive', 'negative']`.
-
-The `predict_proba` method provides access to the predicted distribution over the class labels; see the demo at the bottom of `dynasent_models.py` for details.
-
-The following code uses `load_dataset` from above to reproduce the Round 2 dev-set report on Model 0 from the paper:
-
-```python
-import os
-from sklearn.metrics import classification_report
-from dynasent_models import DynaSentModel
-
-dev_filename = os.path.join('dynasent-v1.1', 'dynasent-v1.1-round02-dynabench-dev.jsonl')
-
-dev = load_dataset(dev_filename)
-
-X_dev, y_dev = zip(*[(d['sentence'], d['gold_label']) for d in dev])
-
-model = DynaSentModel(os.path.join('models', 'dynasent_model0.bin'))
-
-preds = model.predict(X_dev)
-
-print(classification_report(y_dev, preds, digits=3))
-```
-For a fuller report on these models, see our paper and [our model card](dynasent_modelcard.md).
-
-
-## Other files
-
-
-### Analysis notebooks
-
-The following notebooks reproduce the dataset statistics, figures, and random example selections from the paper:
-
-* `analyses_comparative.ipynb`
-* `analysis_round1.ipynb`
-* `analysis_round2.ipynb`
-* `analysis_sst_dev_revalidate.ipynb`
-
-The Python module `dynasent_utils.py` contains functions that support those notebooks, and `dynasent.mplstyle` helps with styling the plots.
-
-
-### Datasheet
-
-The [Datasheet](https://arxiv.org/abs/1803.09010) for our dataset:
-
-* [dynasent_datasheet.md](dynasent_datasheet.md)
-
-
-### Model Card
-
-The [Model Card](https://arxiv.org/pdf/1810.03993.pdf) for our models:
-
-* [dynasent_modelcard.md](dynasent_modelcard.md)
-
-
-### Tests
-
-The module `test_dataset.py` contains PyTest tests for the dataset. To use it, run
-
-```
-py.test -vv test_dataset.py
+```bash
+python replication/validate.py --input data/google_local_prompts.csv \
+    --limit 500 --ballots results/ballots_random500.jsonl
+python replication/agreement.py --ballots results/ballots_random500.jsonl \
+    --out results/validated_random500.csv
+python replication/score_validated.py \
+    --validated results/validated_random500.csv \
+    --out results/table06_random.csv
 ```
 
-in the root directory of this repository.
+---
 
+## Results in this repository
 
-### Validation HIT code
+| File | Contents |
+|---|---|
+| `replication/results/table01…table10*.csv/.tex` | Every reproduced table |
+| `replication/results/table05c_amazon_ab.csv` | The Amazon text-field comparison |
+| `results/ballots_*.jsonl` | Every individual judge response, raw |
+| `results/validated_round3.csv` | 667 adversarial sentences with panel gold |
+| `results/validated_random500.csv` | 449 random sentences with panel gold |
+| `results/table06_new_data.csv`, `table06_random.csv` | Model scores on the new data |
+| `results/calibration_report.txt` | Panel agreement against human gold |
+| `results/amazon_contentonly_m*.txt` | Full external-corpus run logs |
 
-The file `validation-hit-contents.html` contains the HTML/Javascript used in the validation task. It could be used directly on Amazon Mechanical Turk, by simply pasting its contents into the usual HIT creation window.
+The ballot files hold one JSON object per judge per sentence, including
+the raw model output before parsing, so every gold label in this
+repository can be traced back to the five responses that produced it.
 
+---
 
-## License
+## Notes
 
-DynaSent has a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+- `validate.py` and `agreement.py` judge four labels — Positive, Negative,
+  No sentiment, Mixed sentiment — because the original crowdsourcing task
+  offered four, not three. The ternary label is derived afterwards, and
+  Mixed is excluded from the ternary set. The `label_distribution` field
+  in the released DynaSent data retains a `mixed` key, which is what gave
+  this away.
+- `validate.py` is resumable. It keys on `(sentence id, judge)`, so an
+  interrupted run can be restarted with the same command.
+- All runs use fixed seeds and `temperature=0`.
+
