@@ -279,10 +279,11 @@ def build_amazon(out_dir):
     print("Amazon (vgaraujov/amazon_review_full)")
 
     def amz_row(r):
-        title = r.get("title") or ""
-        return (f"{title}. {r['content']}".strip(". "),
+        # Content column only. The paper does not state whether it used the
+        # title, the content, or both; this tests the content-only reading.
+        return (r["content"].strip(),
                 STAR_TO_TERNARY[r["label"] + 1])
-
+    
     tr = _hf("vgaraujov/amazon_review_full", split="train")
     _dump([amz_row(x) for x in tr], out_dir, "amazon_train")
     te = _hf("vgaraujov/amazon_review_full", split="test")

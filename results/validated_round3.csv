@@ -1,0 +1,668 @@
+id,sentence,gold_label,panel_label_4way,star_label,review_rating,gemma2:9b,llama3.1:8b,mistral:7b,phi3:mini,qwen2.5:7b
+row338,The thing is the book was actually called DC Rebirth.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row492,I always get my parts from Napa.,neutral,no sentiment,positive,4,no sentiment,no sentiment,positive,no sentiment,no sentiment
+row118,Then when I got them home to feed them they ate so much they started to gag.,negative,negative,negative,2,negative,negative,mixed sentiment,negative,negative
+row617,She provides awesome customer service.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row731,"Even though hosts/ waiters were friendly enough, we didn’t feel welcomed...",negative,negative,neutral,3,mixed sentiment,negative,mixed sentiment,negative,negative
+row465,Straight up a bunch of stairs.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row215,There where hardly any waves and we spent most of our time just sitting on the board.,negative,negative,neutral,3,negative,negative,no sentiment,negative,negative
+row538,The Mai Tai I had was not very good though.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row313,This is supposed to be Transitional!,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row114,I think we were there ourselves for just over an hour between order and pick up.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row501,He will not even try to prescribe it.,negative,negative,negative,1,negative,negative,no sentiment,negative,negative
+row337,A bit pricey at 10$ per child though.,negative,negative,positive,4,negative,negative,mixed sentiment,no sentiment,negative
+row678,"Ok whatever, but I would have picked up my package the same afternoon it was delivered.",negative,negative,negative,2,negative,negative,mixed sentiment,negative,negative
+row679,"If I put my toddlers together, they can make a better establishment than the state of Hawaii !",negative,negative,negative,2,negative,negative,mixed sentiment,positive,negative
+row81,Coffee is the best on Hawaii Island.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row168,And she has been helping me for a few years already.,neutral,no sentiment,positive,5,no sentiment,no sentiment,positive,no sentiment,positive
+row448,Expensive for major maintenance.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row75,Be aware of the dress code; do not make the mistake of underdressing.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,negative,no sentiment
+row398,"Since it is a shallow reef, it is more suitable for snorkeling than Hana Bay.",neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row128,The fish wrap was disappointing.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row778,My first priority is my families well being...,neutral,no sentiment,negative,2,no sentiment,no sentiment,positive,no sentiment,no sentiment
+row729,Neither of which I was expecting or demanding.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row329,I have several friends that are using their loan.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row575,Only complaint is that you can wait in line for 30 min or more just to get to counter.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row363,But still decent enough to get some drinks before heading to the beaches.,positive,positive,neutral,3,mixed sentiment,positive,mixed sentiment,positive,positive
+row87,"OK Pizza, rather slow service and not busy.",negative,negative,neutral,3,mixed sentiment,negative,no sentiment,negative,negative
+row654,We just did the Turtle Canyon Snorkel with Mason driving and Chris guiding us.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row225,I’d pick a different place for pho next time.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row629,This used to be my go to store and I spend a lot of money there.,neutral,no sentiment,negative,1,no sentiment,no sentiment,positive,no sentiment,positive
+row406,Even though there are three child seats.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row730,Here's where it gets astoundingly bad.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row358,"This incident occurred in the being of August, 2014.",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row741,"When she finally came to the door at 5:55pm, she referred me to Ofice Max.",neutral,no sentiment,negative,1,no sentiment,negative,no sentiment,no sentiment,negative
+row507,My sister and I booked a semi-private surf lesson for two-hours.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row256,Go to Lihue AutoZone where those guys know what there doing and go out of there way with customer service!!,positive,positive,negative,1,positive,positive,positive,positive,positive
+row290,"When I asked about other possible conditions such as bug bites or scabies or whether it was contagious since my wife was 5 months pregnant, he specifically told me it was not.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row214,"I initially asked for a motorcycle tank repair kit, he asked me what I wanted exactly and I told him POR-15, KBS, or Kreem.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row716,They weren’t even busy at the time of the visit.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,negative,no sentiment
+row541,"Locations, hours of operation, services provided.",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row540,"BUT when it was time to check out on the side by the valet parking, the lady there was a b**ch.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row323,I’m use to going here to eat at least once or twice a week.,neutral,no sentiment,positive,4,no sentiment,no sentiment,positive,no sentiment,no sentiment
+row722,"Disappointed with the selection of plants, but maybe it was a result of C19.",negative,negative,neutral,3,mixed sentiment,negative,mixed sentiment,negative,negative
+row497,"One master bedroom with king size bed, and bath tub.",neutral,no sentiment,positive,5,no sentiment,no sentiment,positive,no sentiment,no sentiment
+row420,There is a one way bridge to cross and there you are.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row583,"During our visit to Honolulu, we rented a car from the airport location and returned the vehicle to the Ala Moana Blvd.",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row481,She said she wanted me to let it heal all the way first...,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row432,I had to go look for your office but got a bit disappointed knowing that the staff is not very welcoming.,negative,negative,neutral,3,mixed sentiment,negative,mixed sentiment,negative,negative
+row483,Lived on Kauai my whole life and been on many Na Pali tours..,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row524,I also dealt with his employee Ed who was also helpful and courteous.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row740,Sometimes sand is washed away.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row482,"BBQ grills and bathrooms are also located near the pool and are on a first-come basis, but you can also put your name on a whiteboard to reserve your time.",neutral,no sentiment,positive,4,no sentiment,no sentiment,mixed sentiment,no sentiment,no sentiment
+row795,"The coffee bags were stored in a cool, dry cabinet with other unopened coffee bags, as I was out of the country on holiday.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row201,Average wait time in the reception is about an hour.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row426,The lengua was decent but I have had better.,negative,negative,neutral,3,mixed sentiment,negative,mixed sentiment,negative,negative
+row151,Chicken In the biryani was undercooked.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row331,All I wanted to do was exchange a phone case...,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row553,There is an entrance fee that is 1 dollar per person and a parking fee that is 5 dollars.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row224,"I have only had the acai Bowls here, so the rest of the menu I dont have an idea about.",neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row669,Wish I could have gotten my moneys worth.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row194,"Was a little surprised that the total cost of $906.00 was high for parts (garbage disposal), material (PVC pipes under sink) and labor.",negative,negative,positive,5,negative,negative,negative,negative,negative
+row18,I ordered food in the morning when they just opened.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row29,One who was definitely under 7 needed constant help and asked myself and my adventure partner for help.,neutral,no sentiment,negative,2,negative,no sentiment,no sentiment,no sentiment,no sentiment
+row717,"Foods not bad at all as far as flavor and presentation goes, which is why I kept trying.",positive,positive,negative,2,mixed sentiment,mixed sentiment,positive,positive,positive
+row680,I attended a birthday party there with my parents.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row92,Volume was at an acceptable level.,neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,no sentiment,positive
+row176,"Let me start off by saying that when we decided to rent with Island Cars, LLC my wife and I were not expecting a new car in great condition.",neutral,no sentiment,negative,1,no sentiment,positive,positive,no sentiment,no sentiment
+row567,Parking is terrible here especially on busy days.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row640,Parking in front is $3 valet only (you can include it with your check).,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row523,Good job on making vegan and gluten free.,positive,positive,negative,1,positive,positive,positive,positive,positive
+row646,And that I was making a dumb decision.,negative,negative,negative,2,negative,negative,no sentiment,negative,no sentiment
+row633,For those that like dirt roads best done in a 4 wheel drive this is a good historical site with almost no one around.,positive,positive,neutral,3,positive,positive,mixed sentiment,positive,positive
+row430,"As the only students for the day, Michael and I were warned about reef protection and avoidance and to common sense yield to swimmers and young children when they are in our lane of travel.",neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row45,I would have ordered something else if I knew.,neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,no sentiment,negative
+row39,"If you go to the store, you can choose your own bread like a Japanese bakery ☆ There are tables and chairs inside, and you can make a little coffee and eat bread before going home.",positive,positive,neutral,3,positive,positive,positive,positive,positive
+row709,Might as well sell it on Craigslist too.,negative,negative,negative,2,negative,negative,no sentiment,negative,negative
+row212,I don't think it's just cheap.,neutral,no sentiment,negative,2,negative,no sentiment,no sentiment,no sentiment,negative
+row336,I need to study (Original) Что я здесь делаю?,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row17,I had to go for a company mandated physical and this is the office they use for all employees.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row624,I had a reservation and was told the last airport shuttle pickup was 4pm but that they could leave the car at the airport for me.,neutral,no sentiment,negative,1,mixed sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row719,Cute little general store in the middle of nowhere.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row311,As a facility for health care and other medical services there should ALWAYS be a doctor or a medical provider at all times.,neutral,no sentiment,positive,4,negative,no sentiment,no sentiment,no sentiment,negative
+row663,"Needed a part for subaru wrx, checked site for PARTS dept hours on Sat 6/30.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row109,But great place for party theme items.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row704,Its inconvenient and I will no longer be bringing my business here.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row147,I've been on the ramen binge for awhile and tried this place a few months back then again with my sister this time.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row229,Try the Special chicken sandwich.,neutral,no sentiment,positive,5,no sentiment,no sentiment,positive,no sentiment,positive
+row578,My wife ordered avocado toast which was admittedly good.,positive,positive,neutral,3,mixed sentiment,positive,positive,positive,positive
+row250,As they say here in the Islands Aloha First Hawaiian.,neutral,no sentiment,negative,1,no sentiment,no sentiment,positive,no sentiment,no sentiment
+row544,I'd like to see a haupia or macadamia nut flavor in the future.,neutral,no sentiment,positive,4,mixed sentiment,no sentiment,positive,no sentiment,no sentiment
+row219,Went during happy hour on a Sunday night.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row325,"I ordered my favorite Thai dish, called Pad Thai, and it came steaming hot.",positive,positive,positive,4,positive,positive,positive,positive,positive
+row639,We came here to enjoy a great seafood meal.,positive,positive,neutral,3,no sentiment,positive,positive,positive,positive
+row264,The other guides seemed to be just biding time until the clock ran out.,negative,negative,positive,5,negative,no sentiment,no sentiment,negative,negative
+row223,My pedicurist handled my feet awkwardly.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row107,"I got to hear a foul Australian woman curse at her elementary-school-aged children for a total of several hours over the course of 3 days, all while her hip-hop music played in the background.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row792,Plz change your wall decorations.,negative,negative,negative,2,negative,negative,no sentiment,negative,negative
+row254,Just got the chicken nuggets for for my dog that's the only time I stop there,neutral,no sentiment,negative,2,no sentiment,positive,positive,no sentiment,no sentiment
+row238,A little expensive for a hole in the wall.,negative,negative,positive,4,mixed sentiment,negative,mixed sentiment,negative,negative
+row423,"There is a cafeteria, but not sure of what is offered or if it is any good.",neutral,no sentiment,neutral,3,mixed sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row126,So took a Speedi Shuttle and saved money.,positive,positive,negative,1,positive,no sentiment,no sentiment,positive,positive
+row163,"When they reached your offices, they received the texts and let me know they were down.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,positive
+row35,The gardens need some major work.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row253,Choose kale salad for side deli.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row193,Only paid as I urgently needed the docs.,neutral,no sentiment,negative,2,negative,no sentiment,no sentiment,no sentiment,no sentiment
+row55,Thai style pad thai should have more tamarind tang and fish sauce.,negative,negative,positive,4,negative,negative,mixed sentiment,negative,negative
+row364,Forgot his name but he worked in the hardware department.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row183,They are made fresh and conveniently opens at 0530 (after the sunrise at Haleakala).,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row23,"I purchased two gallons, ensuring that the toggle switch was set to the ""alkaline"" setting.",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row145,Then she said I could get half a dozen.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row211,The ammount of extra work this cost here was less than one minute.,neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,no sentiment,positive
+row715,The garlic shrimp still had the tails and shells on them.,negative,negative,negative,2,negative,negative,no sentiment,negative,negative
+row99,Chopped salad was excellent however.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row291,I'd call before going to be sure they're open.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row437,We saw a couple of tour buses come through.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row536,Asked the guy several times if hey going get more and he always tells me come back on Thursdays cause as when there shipment comes in.,negative,negative,negative,1,negative,negative,mixed sentiment,no sentiment,negative
+row444,He showed us all of the available vehicles and explained all of the upgrades and options for the Jaguar SUVs.,neutral,no sentiment,positive,5,no sentiment,no sentiment,positive,no sentiment,positive
+row459,"Likely, because of not enough staff.",negative,negative,neutral,3,no sentiment,negative,no sentiment,negative,negative
+row127,Went to the gas station to get some mad dogs and black & milds (wood tip) only to be called a stupid haole.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row784,I ordered on one of the self-serve machines and not everything that I wanted was up there and I chose what I thought was what I wanted and when it came out it was something completely different.,negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row261,I had a pretty quick talk with the owner.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row381,I wanted to see what the prices were at other companies and requested a quote.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row697,By the time they finished quoting me.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row652,"For areas of improvement - spend more time at the crater after sunrise, more suggestions on plaves to stop and visit on the way down.",neutral,no sentiment,positive,4,mixed sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row142,Came here for a Christmas party so only saw the one room.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row643,Petco fish dogs cats and supplies small selections and fish section too small and under managed.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row242,Stay well clear of these people.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row750,"He didn’t snorkel, so we had no idea what fish we were seeing.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,negative,no sentiment
+row641,This lead to a semi awkward feeling trip.,negative,negative,neutral,3,negative,mixed sentiment,mixed sentiment,negative,negative
+row687,"While walking through Ka Makana Alii mall today 2/8/17 , I had to pass Truffoire.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row50,I would have a transport vehicle on Saturday to pickup the windows.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row691,The Spa itself is extremely disappointing.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row774,"Dishes were ok, no wow factor at all.",negative,negative,neutral,3,negative,negative,no sentiment,negative,negative
+row635,Felt like I could've gotten the same or better experience (food and service-wise) at an IHOP.,negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row285,Not as good as if there had been fruit without bugs.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row258,Our family of 4 stayed here in Spring of 2018.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row15,My husband was not a huge fan of the burger.,negative,negative,neutral,3,negative,negative,no sentiment,negative,negative
+row378,The pictures and notes about this place are old.,neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,negative,negative
+row177,We made a break halfway in nice area with waterfall views.,positive,positive,positive,5,positive,no sentiment,positive,positive,positive
+row686,"Good store, somewhat wide selection of cameras and lens, knowledgeable staff.",positive,positive,negative,2,positive,positive,positive,positive,positive
+row100,"Unfortunately, she disappeared on the way from Hawaii to Australia in 1937.",negative,negative,positive,4,negative,no sentiment,negative,negative,no sentiment
+row383,Greens not in great shape and some rough patches elsewhere.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row780,"Once that was taken care of, our service technician was very nice!",positive,positive,neutral,3,positive,positive,positive,positive,positive
+row289,Got to have Buttermilk Ranch sauce as well.,positive,positive,positive,5,positive,no sentiment,positive,no sentiment,positive
+row84,And I usually look forward to resort spas because they often have great facilities that are an enjoyable place to hang out and relax.,positive,positive,neutral,3,positive,no sentiment,positive,positive,positive
+row83,I forced him to look at my pickup documents as he was jumping in his cab to drive away.,negative,negative,positive,4,negative,no sentiment,no sentiment,negative,negative
+row47,"Very crowded, mediocre food, not replenished",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row95,My husband and I recently traveled to Maui with our 6 month old baby.,neutral,no sentiment,positive,5,no sentiment,no sentiment,mixed sentiment,no sentiment,no sentiment
+row514,"I chalk it up to how slammed they were, but I was still disappointed.",negative,negative,neutral,3,mixed sentiment,negative,mixed sentiment,negative,negative
+row585,"As far as I know, this is a veteran owned company.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row460,Claimed Marahlago jewelry was real.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row447,This is great info and don't be deceived by Dr.'s and hospitals.,positive,positive,negative,2,positive,negative,positive,positive,positive
+row237,Customer service needs improving.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row419,We are in a vacation club and we are very disappointed with this place.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row74,For the price it is what you get nothing special.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row610,"I paid up, went home and looked at my records.",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row618,I glad to write you and I am bringing the Lord's work before you for your prayers.,positive,positive,neutral,3,positive,no sentiment,positive,no sentiment,positive
+row14,Could’ve made a new one if you messed up.,negative,negative,negative,1,negative,negative,negative,negative,negative
+row213,"If you drive to the Google location, it takes you to private property.",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,negative,no sentiment
+row510,"Good food, nice sandwiches w/ pickled daikon & carrots inside.",positive,positive,positive,4,positive,positive,positive,positive,positive
+row755,But everybody wants money I guess.,neutral,no sentiment,negative,1,no sentiment,negative,no sentiment,no sentiment,no sentiment
+row597,"Don't mind paying higher prices for great food, but this visit shrimp was over cooked, steaks way over cooked.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row647,"Keep in mind that when the canal opens, brackish water amd fish swim from the canal to the ocean.",neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row400,The warmth of freshness is the best.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row30,A couple that works there bring their children but hope the young children can take care of the younger ones.,neutral,no sentiment,negative,2,mixed sentiment,no sentiment,mixed sentiment,no sentiment,no sentiment
+row623,If you want to see a community pool that is worth it.,positive,positive,neutral,3,no sentiment,positive,positive,no sentiment,positive
+row330,I wanted to make a last minute appt for a massage on a Friday.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row187,I also tried their ramen and it's a crime against all ramen restaurants.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row221,"Should clean, paint and freshen up atmosphere.",neutral,no sentiment,positive,4,negative,no sentiment,positive,no sentiment,no sentiment
+row748,"There is a foreign student in the womens dorm with pains for weeks , swelling in her veins and blood bursting , asking her overseas family for help and the BYUH staff housing, health etc.",negative,negative,negative,2,negative,negative,mixed sentiment,negative,negative
+row367,Ride out to a ball in the Pacific and then back.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row402,The curry dish is the best in three dishes.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row124,Booked the day trip online paying extra for pick up from our hotel.,neutral,no sentiment,negative,1,no sentiment,no sentiment,positive,no sentiment,no sentiment
+row234,We got to snorkel during a break from canoeing.,neutral,no sentiment,positive,5,no sentiment,no sentiment,positive,no sentiment,positive
+row86,I really don't think that should be a table reserved for last minute upgrades to packages.,negative,negative,neutral,3,negative,no sentiment,negative,negative,negative
+row491,They were hardly different than any other US buffet.,negative,negative,negative,2,no sentiment,negative,no sentiment,negative,negative
+row308,Some other friends were also very happy with the pasta with goat cheese.,positive,positive,neutral,3,positive,no sentiment,no sentiment,positive,positive
+row630,Great selection just looking around,positive,positive,neutral,3,positive,positive,positive,no sentiment,positive
+row286,Minor stocking issues with cups and cutlery was random items.,neutral,no sentiment,neutral,3,negative,no sentiment,no sentiment,no sentiment,no sentiment
+row133,I dont talk POLITICS when I'm paying for services!,negative,negative,neutral,3,negative,negative,no sentiment,negative,negative
+row788,"After their second missed appointment to pick me up from my in town home, I gave up and just waited for the part to arrive.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row742,But I disappointed that falls are smaller than what I expected.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row121,"I heard the starter call back to the pro shop and ask if there was some mistake, and they confirmed to send out 6.",neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row249,"With my first visit he taught me basic steps that I can do on my own for proper body alignment whether I’m standing, drivingsitting at my computer or my favorite, sitting on my couch watching TV.",positive,positive,positive,5,positive,positive,positive,positive,positive
+row551,Went here for the Open 20.5 while on vacation.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row705,My soldiers said trng was good.,neutral,no sentiment,neutral,3,positive,no sentiment,no sentiment,no sentiment,positive
+row758,We asked the waitress about it and were informed that the topping charge would be the higher price.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,negative,no sentiment
+row421,"It is, however, a closed community church.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row453,"The boba is very inconsistent with the textures, some were very mushy.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row377,Don't like the card only method of payment.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row559,My son and I went to Poipu Surf to look at some boogie boards.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row735,Parts department could use some work.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row431,Lei was helpful and said she would reorder the fridge and gave me a tentative 9/12/18 new delivery date.,positive,positive,negative,1,positive,positive,positive,positive,positive
+row656,"If it is a word center, the problem of parking is also clear for people who move by car!",neutral,no sentiment,positive,5,mixed sentiment,no sentiment,positive,no sentiment,no sentiment
+row153,We stay here every time we go to Maui.,positive,positive,positive,5,positive,positive,positive,positive,positive
+row488,We have been diving with this shop for 10 years and have probably done 50 dives combined out of the shop as well as a myriad of tank rentals and gear purchases.,neutral,no sentiment,neutral,3,no sentiment,no sentiment,positive,no sentiment,positive
+row615,Sorry for those of you who had a bad experience.,neutral,no sentiment,positive,4,no sentiment,negative,no sentiment,no sentiment,negative
+row80,We paid $180 for Two to do the uss Arizona memorial tour with the Missouri ship and tour of the city with lunch.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row384,"One of his workers literally pushed the tree over with his bare hands, roots came up and everything.",negative,negative,neutral,3,no sentiment,negative,negative,negative,no sentiment
+row605,"However, tons of coffee to taste that was delicious.",positive,positive,neutral,3,positive,positive,positive,positive,positive
+row665,"Line up after 6 o'clock, and admission before 10 o'clock in 10 minutes.",neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row794,"Circle K was dirty, unorganised, and employees unwilling to help",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row68,Nice park for the kids with a little bit of everything to do their outdoors,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row105,"At arrival at the parking we had to find our way through a pool of mud and dead leaves, which is obviously not very welcoming.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row579,"Sometimes have to wait, even with reservation.",neutral,no sentiment,positive,4,mixed sentiment,no sentiment,no sentiment,negative,no sentiment
+row239,I’m unsure if maybe it’s this lady’s first time in the store on her own or what...,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,mixed sentiment,no sentiment
+row66,"My only ""problem"" was that the food was too good and too hot and I burned my tongue a little lol.",positive,positive,positive,4,mixed sentiment,positive,mixed sentiment,positive,positive
+row314,Older woman with short gray hair was rude and unhelpful.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row518,Hike has to be done by yourself.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row156,In fact we waited the full 4 days and now it's barely visible.,negative,negative,negative,2,negative,negative,negative,negative,negative
+row110,"That's ok"" Food came -- I ordered the wrap without the bacon and shrimp (vegetarian) My wrap came as lettuce wrapped around tomatoes.",neutral,no sentiment,negative,1,negative,no sentiment,no sentiment,positive,no sentiment
+row723,"Dive was Good, was super disappointed we spwnt 300 bucks and couldn't take any photos since we arnt certified.",negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row659,They came in just two days from Hawaii.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,positive
+row32,Local Chinese restaurant with all of the tasty local favorite comfort food.,positive,positive,negative,2,positive,positive,positive,positive,positive
+row298,Why are they doing this to me?,negative,negative,neutral,3,negative,no sentiment,negative,negative,no sentiment
+row586,"This place is where they show you the benefits of ""vacation ownership"" with them.",neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,positive,no sentiment
+row516,Ask for fish and meat and share it with two people.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row346,The floor in the room was as hard wood and not the cleanest.,negative,negative,neutral,3,mixed sentiment,negative,mixed sentiment,negative,negative
+row701,We called our homeowner who called RevoluSun they said everything looked right?,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row545,Had to finally ask for check and still took another 20 minutes to get it.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row332,"On there record it says delivered to Becky, who is Becky?",neutral,no sentiment,negative,1,negative,no sentiment,no sentiment,no sentiment,no sentiment
+row521,"Very little help on renting cabins, pavilions or cabins.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row88,Very clean environment parking is a plus,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row106,"Legit zippys, an island favorite.",positive,positive,neutral,3,positive,positive,positive,positive,positive
+row335,"I can understand people doing it only to exercise, but besides that AVOID IT.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row375,We especially liked the chicken cobb salad.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row417,The drawback was that the pho was a little soft.,negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row174,"HMSA has less than a 1 minute wait for sales, and a nearly 2 hour wait for customer service.",negative,negative,negative,1,mixed sentiment,negative,mixed sentiment,negative,negative
+row690,Then I told my wife give him warranty work and I asked why 3 different prices for OEM parts and labor.,negative,negative,negative,1,negative,negative,mixed sentiment,negative,negative
+row502,Clean thoroughly after your event.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row577,I was skeptical that he would eat them since I have never given him anything like that before.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row82,Just to pay for the item took Longer .,negative,negative,positive,4,negative,negative,negative,negative,negative
+row520,The P3 Orion is originally from NAS Barbers Point.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row391,"I've observed some other places, focusing on speed more than form.",neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row12,I'm guessing the owner aswered and said he's working on it now..??,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row570,My father who was a devout Catholic and never drank or did drugs was pumped with morphine as he was dying at the hands of our family.,negative,negative,negative,1,negative,no sentiment,negative,negative,negative
+row650,Three pieces - a little over $ 5.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row31,"So, so food that is overpriced and drink pours that are less than generous.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row616,We went mostly for nostalgia & this didn't have it.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row344,Je recommande à tout ceux qui on la chance de pouvoir y aller !,positive,positive,positive,5,positive,positive,positive,positive,positive
+row658,He weighs and measures the brands prior to grinding them.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row596,"Fairly decent, nothing too far from the norm.",neutral,no sentiment,neutral,3,mixed sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row602,"Busy main branch, possible long lines",neutral,no sentiment,neutral,3,no sentiment,negative,no sentiment,no sentiment,no sentiment
+row316,"You know what they say, ""don't trust everything you find on the internet."" We can say anything about anything or anyone, but it does not make it true.",neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row573,Been going there once a week for almost a year.,neutral,no sentiment,negative,2,no sentiment,no sentiment,positive,no sentiment,no sentiment
+row65,The hallway had such a very strong smell of air freshener.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,negative,negative
+row190,Pros: Our pilot Doug was friendly.,positive,positive,negative,2,positive,no sentiment,positive,positive,positive
+row149,In retrospect I’m sure I will be happy with the mattress.,positive,positive,negative,2,positive,positive,positive,no sentiment,positive
+row357,No A/C and the place seems to never catch a breeze.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row19,Breakfast cocktails were really nice.,positive,positive,negative,2,positive,positive,positive,positive,positive
+row560,Told me service crews will respond within at least 24 hours.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row645,"They're not going to greet you in the common areas, or even hold doors for you.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row753,The game itself was quite good.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row374,I did an online purchase as the Mililani store did not have what I needed.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row94,Found a dead turtle shell unfortunately :( people who went snorkeling could see the turtles!,negative,negative,positive,4,mixed sentiment,mixed sentiment,negative,negative,negative
+row670,My report only indicated a couple of areas were not not accessible and should be considered before purchase.,neutral,no sentiment,positive,4,negative,no sentiment,mixed sentiment,no sentiment,no sentiment
+row734,"It was eaten in front of the store, and the elder brother of the store clerk brought it.",neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row539,"Since there are many different types of meals, it would be a good idea to solve them here ...",neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row773,Our rental was a 13 year old 130k Jalopy.,negative,negative,negative,2,negative,negative,no sentiment,no sentiment,negative
+row655,I'd give it four stars except their chile relleno was absolutely the worst rendition I've ever eaten.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row272,Especially the Korean chicken plate.,positive,positive,positive,5,no sentiment,positive,positive,no sentiment,positive
+row209,"The technique he recommended (""flick the reostat really hard with your finger"") didn't work for me.",negative,negative,positive,5,negative,negative,negative,negative,negative
+row172,We went several times during our trip to Oahu.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row783,I did not feel that the facility was very clean.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row296,During a visit to several islands my wife and I stopped by Merriman's as they advertised using local ingredients.,neutral,no sentiment,positive,5,no sentiment,no sentiment,positive,no sentiment,no sentiment
+row589,"After the bike got worse, I brought it into the dealership to have them adjust the valves.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row727,Lots of businesses in this tower.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row548,"After chipping away about an inch of concrete, they discovered a fitting that the horizontal pipe was screwed into.",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row299,In the form of ketchup or mustard maybe.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row216,"However, the snorkel equipment was not very good, constantly leaking.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row603,The flavors were too similar and made it feel cheap.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row622,I however decided on the carne asada street tacos which was explained to me has “loaded with toppings” which it was not the case whatsoever.,negative,negative,negative,1,negative,negative,negative,negative,negative
+row441,My husband and I stayed at Honeymoon Cottage for 8 days in January.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row738,"Only bummer is the place is small, looks like maybe 8 or 9 tables that seats about 4 per table.",negative,negative,positive,4,negative,negative,mixed sentiment,negative,negative
+row235,"Great job, really fast service and a comfortable waiting area.",positive,positive,neutral,3,positive,positive,positive,positive,positive
+row166,"This store needs in an upgrade in equipment, morale, and mgmt.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row609,"Declined her offer and told her just ""tell him to get the damn thing fixed!""",negative,negative,negative,2,negative,negative,negative,negative,negative
+row26,"We were fishing as hard as we could, changing things up, and nothing would bite.",negative,negative,positive,5,negative,no sentiment,mixed sentiment,negative,negative
+row673,I was facing a serious OVUII charge and this was compounded by me having a captain’s license.,negative,negative,positive,5,no sentiment,no sentiment,negative,negative,negative
+row33,When I was there swimming was not allowed outside of this.,neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row278,But ultimately someone decided to just accompany on the boat.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row340,Took it to this Lex Brodie’s location for an alignment.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row644,The replacement of the oven gasket was done efficiently and satisfactorily.,positive,positive,negative,2,positive,positive,positive,positive,positive
+row653,Je suis retourné voir la personne en charge des logements.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row445,"Food was ok, but nothing more.",negative,negative,negative,2,mixed sentiment,negative,no sentiment,negative,negative
+row708,"That said, the tech was very friendly.",positive,positive,neutral,3,positive,positive,positive,mixed sentiment,positive
+row320,Waiting for a table for thirty minutes and more,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row123,It is much different from a sweet Korean garlic chicken..,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row598,I went to the restaurant today and just got hurt.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row101,The whole experience was pretty messy.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row764,I never got to use mine so kind of a waste of money.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row486,My husband and I wanted to try this place and it was decent.,positive,positive,neutral,3,mixed sentiment,positive,positive,positive,no sentiment
+row42,"There were three staff members including two bartenders not wearing masks for most of our time at the restaurant, one gentleman at a table conversing with no mask on himself or on the seated guests.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row485,I said I kind of figure she is your wife...,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row505,They got a steal on our trade it and jacked the price on what we bought.,negative,negative,negative,1,negative,negative,negative,negative,negative
+row138,Server forgot an order but claimed we didn't order it.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row564,It's not fun for Your Customers if Your Employees are buying up or changing tags every week.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row197,The tapioca shop was sweet and delicious.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row519,Random music playing at each hibachi table.,neutral,no sentiment,negative,2,no sentiment,negative,no sentiment,no sentiment,no sentiment
+row746,On attendra 10 min que quelqu' un vienne nettoyer la table puis 5 min complémentaire sans avoir encore reçu les menus.,negative,negative,negative,1,negative,negative,mixed sentiment,negative,negative
+row621,She and I could clearly see the grey!!,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row543,I was assigned this company for a military move last month.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row599,My mom told her okay I'll get cash.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row300,Music is loud and hard for intimate conversations.,negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row720,But due to the openness of this location they are wondering in and out constantly.,negative,negative,positive,4,negative,negative,mixed sentiment,negative,no sentiment
+row442,"Anyway, I brought my cracked iPhone in to get repaired.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row581,"Last week in Hawaii, there was a large shortage of cars available in Maui.",neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row508,The dishes were great we ordered prime sizzling menus for our dinner.,positive,positive,negative,2,positive,positive,positive,positive,positive
+row227,"There is a Wi-Fi router, but our house did not have one.",neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row179,Specialty items can be pretty expensive.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row287,"What I find missing is simple items like chicken, or some type of ground beef entree.",negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row347,"We also ordered Chicken Katsu, Veal plate, Chicken Boat (substituted the fries for rice), and Sweet Potato Tempura.",neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row282,They don't look you in your eyes.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row186,"The dishes were pretty yummy, the presentation was nice, and the cocktails were excellent.",positive,positive,neutral,3,positive,positive,positive,positive,positive
+row5,We had expected Ha'o to pick us up at 9:30 AM.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row591,"As many jobs in Hawaii require a 2 Step TB clearance and I am currently seeking employment, I went to the Lanakila Health Center for a 2 Step TB test.",neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row46,Luckily the tour guide was lovely and we arrived to our hotel safely,positive,positive,negative,1,positive,positive,positive,positive,positive
+row310,The Ala Wai Canal runs through Waikiki from the far end of Kapiolani Park and finally pours into Waikiki Bay.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row252,I found the views at sunrise were very average.,negative,negative,neutral,3,negative,negative,no sentiment,no sentiment,negative
+row396,Asked for extra buscuit got fries.,negative,negative,negative,2,negative,negative,mixed sentiment,no sentiment,negative
+row275,I guess I always go there at a good time.,neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row305,The batter is too thick and soft.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row89,No big deal I call to see if they can move us.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row574,He was the one taking orders too.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row293,"Good swimming for kids and adults, don't touch the turtles but enjoy the common sightings",positive,positive,positive,4,mixed sentiment,positive,positive,positive,positive
+row760,"When the best three items are the dinner roll (probably from Costco), coleslaw, and the green salad, then you know that the main items were not good.",negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row604,"Its nice for just a few items such as some snacks, water, toiletry .",positive,positive,neutral,3,mixed sentiment,positive,positive,no sentiment,positive
+row389,The braising liquid and pesto were very good.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row25,"Parking is $5, but you can park along the road just outside the lot.",neutral,no sentiment,positive,4,mixed sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row563,Good food and a very nice location,positive,positive,positive,4,positive,positive,positive,positive,positive
+row608,The entrance to the mountain is on the left.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row407,"Mediocre food however, so don't expect to be blown away.",negative,negative,positive,4,mixed sentiment,negative,negative,negative,negative
+row217,Nice touns of options to eat .,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row606,"The gardens here are smaller than I thought, there isn't much to explore.",negative,negative,positive,4,negative,negative,negative,negative,negative
+row318,"They were always willing to answer questions, make changes, find information I needed, and make arrangements.",positive,positive,negative,2,positive,positive,positive,positive,positive
+row476,I can only speak from my own experience.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row271,You can take in the views on the island's interior and Diamond Head in the distance.,positive,positive,neutral,3,no sentiment,no sentiment,positive,positive,positive
+row137,I liked him right away because he has working dogs there.,positive,positive,neutral,3,positive,no sentiment,positive,positive,positive
+row255,Ate here as our last meal before leaving Hawaii...,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row69,"There's a grocery store and some small eateries here, also a McDonald's, it's just a tiny little shopping center",neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row270,"The spot is small, but is directly across from windward dodge.",neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row67,I didnt get my coffee until I asked specifically and the girl at the register wasnt really qualified for the job.,negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row777,"It’s good, but SO GREASY and the oil tasted rancid.",negative,negative,neutral,3,mixed sentiment,mixed sentiment,negative,negative,negative
+row484,"Miss Marlene, she was the best and always smiling.",positive,positive,negative,2,positive,positive,positive,positive,positive
+row27,Try to avoid outdoor seating since we had more birds than normal for Waikiki and many more flies than at any other meal in Hawaii.,negative,negative,positive,4,negative,negative,mixed sentiment,negative,negative
+row625,I did t feel they were particularly friendly.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row413,Otherwise be prepared to wait an hour or so.,neutral,no sentiment,positive,5,negative,no sentiment,no sentiment,no sentiment,no sentiment
+row682,Decent Chinese at American Chinese restaurant prices.,positive,positive,positive,4,mixed sentiment,positive,positive,positive,mixed sentiment
+row728,"When I walked in, one person was helping another customer and one person was looking at her computer screen.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row752,He told me that we didn’t reserve or place a down payment on a bike so he wasn’t obligated to hold one for me.,neutral,no sentiment,negative,1,negative,no sentiment,negative,no sentiment,no sentiment
+row21,"If you use this outfit, don't pay for pictures as it is a scam.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row366,Otherwise its bone in whole deep fried chicken with choice of sauce however the chicken bones get brittle and meat gets dry if not eaten immediately.,negative,negative,positive,4,mixed sentiment,negative,mixed sentiment,negative,negative
+row487,Stopped by to take home some chicken for dinner.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row394,You will go a minimum of three months with no platonic human contact.,negative,negative,negative,2,negative,no sentiment,no sentiment,negative,negative
+row52,The service was bad and the added gratuity bc we where a group of 8.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row435,Did part of this trail with a tour guide.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row671,There needs to be more improvements made on what items they carry and what's in stock.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row504,We were told to hang on to our receipts and we could get gifts in return.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,positive,positive
+row703,The price of service is just not worth it for what is done.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row192,"I came to her after a DIY color job gone wrong, I finally gave up on coloring my own hair.",negative,negative,positive,5,negative,no sentiment,mixed sentiment,negative,negative
+row393,Your app for take out doesn't always work correctly & I've had issues with it before.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row429,I've removed two stars for the following reasons: - Not quite as clean as some of the other hostels.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row259,Can't rate them lower than two stars...,negative,negative,negative,2,negative,negative,negative,negative,negative
+row612,Pro: Has security with cameras.,positive,positive,neutral,3,positive,no sentiment,positive,no sentiment,positive
+row676,We will definitely not come back to this PetSmart.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row462,"Small, crowded, and pricey to get in ($7 cover charge).",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row418,"Chai tea latte, breve, no water with whip!!",neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,positive
+row542,Wait time was a bit long so make sure you phone in your order.,neutral,no sentiment,positive,4,mixed sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row480,"My son got Juniper mint, My husband got lilikoi cheesecake, and I got wildberry lavender.",neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row533,Certainly wasn’t amazing like I was expecting from the reviews.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row434,Find out what that means when you go on his ride!,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row493,Funny that we had to use our phone flashlight to view the menu..,negative,negative,positive,4,negative,negative,mixed sentiment,negative,negative
+row297,Drop-off location is confusing - unsure where to park and where to report.,negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row167,Move things back into the third room Steps 1 and 2 were completed.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row132,Much happier with new company.,positive,positive,negative,2,positive,positive,positive,positive,positive
+row790,The bartenders were at least cute,positive,positive,negative,2,mixed sentiment,negative,positive,positive,positive
+row471,My husband and I happened upon this place on our travels.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row103,"We were out there, on the water, for over an hour.",neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row494,There are lots of children who are unsupervised and may have some issues so keep a close eye on your own.,negative,negative,negative,2,negative,no sentiment,mixed sentiment,negative,negative
+row684,On m'a remis mon dépôt sans problème.,positive,positive,negative,2,positive,no sentiment,no sentiment,positive,positive
+row334,"I went to another doctor the second day after I saw Dr Luke, another doctor helps to diagnose my problem quickly without X-ray.",positive,positive,negative,1,positive,no sentiment,mixed sentiment,positive,positive
+row51,Then he said I guess we will need to do maintenance.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row607,"I ordered buffalo wings that were gummy and so salty that the salt burned my mouth, not the buffalo sauce.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row779,"The dentist then told me, “I don’t do cleanings.",negative,negative,negative,1,no sentiment,no sentiment,negative,negative,negative
+row771,"We got bills to pay, mouths to feed, and provide other essentials for themselves.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row751,I thought we'd get clean linens.,neutral,no sentiment,negative,2,negative,no sentiment,no sentiment,no sentiment,no sentiment
+row266,I will be contacting you in the future.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row44,I went into this wine shop and it was very quiet and no one there to assist so I ended up just leaving.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row495,One of the things we didnt like was the fact that you can't do more than 1 tour a day at Kailua ranch.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row91,The don't have (for now) a license to sell alcohol beverages but you can bring your own.,neutral,no sentiment,positive,5,mixed sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row280,There are sober designs that you can wear even in Japan.,positive,positive,positive,4,no sentiment,no sentiment,positive,positive,positive
+row182,Tony Rabi did a wonderfultimate job presenting to us today!,positive,positive,neutral,3,positive,no sentiment,positive,positive,positive
+row169,Make sure you have the right shoes and plenty of water.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row685,One time she answered my phone call while hiking.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row188,"When I try to register for a new online business account, the email for the temporary password doesn't work immediately.",negative,negative,neutral,3,negative,no sentiment,no sentiment,negative,negative
+row54,"First off, I tried to call in an order because I had gotten off work late and wanted to just get a quick meal to go.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row125,Con: Not an amazing variety of cars in the Executive Aisle,negative,negative,positive,4,negative,negative,negative,negative,negative
+row425,I'm so blessed not to have had any procedures with this office.,positive,positive,negative,1,positive,positive,positive,positive,positive
+row661,"If you want great sushi, go to Yanagi Sushi!",positive,positive,neutral,3,positive,positive,positive,positive,positive
+row113,Relaxed atmosphere with heaps of memorabilia on the walls.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row408,I took my date and we chose the exclusive chef special.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,positive,positive
+row16,Bean burger and rice Moco was amazing!!!,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row584,For starters it was my anniversary and honeymoon.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row333,Not too happy that 3 people who ordered after me got their food first.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row24,I will never buy another brand new Toyota van and bring my car to Motor Imports Toyota for service.,negative,negative,negative,1,negative,negative,negative,negative,negative
+row204,The front office went on to say that Dr.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row529,We arrived just before 1pm for an inspection (impromptu so no appointment).,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row451,Was supposed to be a 3 hr tour.,neutral,no sentiment,negative,1,no sentiment,negative,no sentiment,no sentiment,no sentiment
+row309,The take out gal said they couldn't do that.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row158,She was also the boat captain and she deserves a 5 star review.,positive,positive,negative,2,positive,positive,positive,positive,positive
+row594,So basically I payed $85 for a 35/40 min massage!!,negative,negative,negative,2,negative,negative,negative,negative,negative
+row414,It was revoked but I have yet to receive another invoice as promised.,neutral,no sentiment,neutral,3,mixed sentiment,no sentiment,no sentiment,negative,no sentiment
+row196,Waitress was very helpful with travel tips.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row537,"And things in cases include pregnancy tests, shampoo, conditioner, razors (women's only!)...",neutral,no sentiment,negative,2,mixed sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row199,I think all the employees were in the backroom.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row700,It was my first time visiting today with my younger brother.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row503,In less than an hour I drove away in my dream car.,positive,positive,negative,2,positive,positive,positive,positive,positive
+row277,We got lucky as spotted a whale sprout and Honu while on the boat.,positive,positive,negative,2,positive,no sentiment,positive,positive,positive
+row763,The waitress apologized and returned a few minutes later with water.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,positive,positive
+row692,Only if there isnt another pizza place available.,neutral,no sentiment,negative,1,negative,negative,no sentiment,no sentiment,no sentiment
+row321,"The only downside is probably the frogs, which are very noisy at night, as well as the provided earplugs do not help much.",negative,negative,positive,4,negative,negative,mixed sentiment,negative,negative
+row611,Has what you need if you are here to lift.,positive,positive,neutral,3,no sentiment,positive,positive,no sentiment,positive
+row552,When I arrived at the shop the owner/repair man told me no I couldn't use the ramp.,negative,negative,negative,1,negative,negative,negative,negative,negative
+row397,Thats no way to treat an employee,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row283,"Plenty of food, large portions.",positive,positive,neutral,3,no sentiment,positive,positive,positive,positive
+row207,Never return calls I had heart surgery a couple years ago and often don't feel well.,negative,negative,neutral,3,negative,negative,negative,no sentiment,no sentiment
+row315,"However, this location will be closed on August 18th 2019 ....",neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row322,Pasta and sauce was absolutely the best.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row695,And oh the fish will make you sick.,negative,negative,negative,2,negative,negative,negative,negative,negative
+row38,"Hawaiian Airlines departing from Lihue Airport, LIH.",neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row530,Gave em a three cuz he was at least polite about overcharging me.,negative,negative,neutral,3,mixed sentiment,negative,negative,negative,negative
+row339,I left a message on their Instagram.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row77,It was a little after 10:00 AM.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row247,Again I've never been in Martin And MacArthur .,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row565,Very good quality of food and delicious.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row620,I have bad knees and cannot squat down or kneel for long periods of time as I was helping my daughter look through books on the bottom shelf of the art section.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,negative,negative
+row490,Our last vet had tiny rooms that made it uncomfortable.,negative,negative,positive,5,negative,no sentiment,mixed sentiment,negative,negative
+row327,"A recent food magazine had rave reviews of the Don Ho pizza at the Lihue ""Pietro's Pizza"" so we thought we might try to recreate it at the Poipu restaurant.",neutral,no sentiment,negative,2,no sentiment,no sentiment,mixed sentiment,no sentiment,no sentiment
+row288,Do you have any time restrictions?,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row304,"We had the Teriyaki Beef platter, shrimp burger, and hamburger.",neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row368,My biggest qualm was that they told us on check in that we wouldn't hey the introductory price since we're not locals.,negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row782,They had no line and only two people eating there.,neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,positive,no sentiment
+row399,"Seating arrangement is awkward and too crowded, we were disturbed constantly from servers and other customers squeezing by the overly packed seating arrangement.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row725,"Cozy bar to hangout with friends, does not appear to ever get crowded.",positive,positive,neutral,3,positive,positive,positive,positive,positive
+row1,Found a place there through airbnb.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row64,The server Helen was amazing and outstanding.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row619,If you are looking into do this tour I would choose a different company with better newer equipment.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row2,Good place for a inexpensive meal with a large selection of italian to chinese cafe dishes.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row210,"She came to take our order, our dessert order and to give us our check, that's it.",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row789,We don’t mind paying a lot of money for food.,neutral,no sentiment,negative,2,no sentiment,no sentiment,positive,no sentiment,positive
+row466,I felt like the Kalua pork was warmed up from the day before.,negative,negative,negative,2,negative,negative,negative,negative,negative
+row175,It feels like their prices are inflated far more than other mainland restaurant chains,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row660,The scrub did feel nice and does soften your skin.,positive,positive,negative,2,positive,positive,positive,positive,positive
+row274,I picked out glasses and will return with my husband the following Saturday.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row108,I checked their website and nothing like it even exists on the website but I did see soap.,neutral,no sentiment,negative,1,mixed sentiment,no sentiment,no sentiment,no sentiment,negative
+row463,I went twice and all I can say is that it was not for me.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row535,Extremely loveless and quickly put together.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row328,I went home and ordered a $17 chain online.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row390,Im just rating how my visit and experience was eating here.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row772,Very hot but beautiful land a cape,positive,positive,neutral,3,mixed sentiment,positive,positive,no sentiment,positive
+row96,Check engine light was on in both.,neutral,no sentiment,negative,1,no sentiment,negative,no sentiment,no sentiment,no sentiment
+row205,Associate walked past and did not offer any kind of help.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row267,"They have tropical and subtropical plants, including orchids and water plants.",neutral,no sentiment,positive,4,no sentiment,no sentiment,positive,no sentiment,no sentiment
+row747,I have no desire to return..would you?,negative,negative,neutral,3,negative,no sentiment,negative,negative,positive
+row632,But I ordered one with extra sauce.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row754,Microphones kept being staticky..,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row707,"I'm a picky eater, which this lacked flavor and sustenance, due to the meat/veggie to rice ratio overly favoring rice.",negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row365,"People also tend to not follow the traffic flow, so be extra careful and when you park make sure you aren't going to be in the way and that you'll be able to get out when you're ready to leave.",neutral,no sentiment,positive,5,negative,no sentiment,mixed sentiment,no sentiment,no sentiment
+row70,The short brunette woman working the register today was very snobby and gave me attitude when I asked simple questions.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row446,Unlike our mainstream society including a select few COPS who think they're GOD?,negative,negative,negative,2,negative,negative,negative,negative,negative
+row102,"We stopped by on a Wednesday night just looking for something to do, and since they had live music, we thought we'd try it.",neutral,no sentiment,negative,2,no sentiment,no sentiment,mixed sentiment,no sentiment,no sentiment
+row260,I found Mattos salvage yard looking for a used taillight for my car.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row140,Locked the keys in the car today!,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,negative,no sentiment
+row243,There was a river/pond in the area.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row317,"However, it doesn't take a lot of ""tech"" to board a dog or a cat.",neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row90,"I probably wouldn't go there again, rather eat more healthy food with a lot more flavor.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row712,"I was quoted for 10 or 11 hours, which one is it?, for a job the dealership said was 8 max and the other VW repair shops all say it is 5.6 hours.",negative,negative,negative,1,negative,negative,mixed sentiment,no sentiment,negative
+row40,I am not sure what happened with Ms.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row785,I can tell you...when this lease is up.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row131,This place is on private property and is also part of the ko'olau hunting preserve.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row683,"The last time we went, I guess they didn't want to waste a small piece, so I got 1-1/2 small pieces.",neutral,no sentiment,negative,2,negative,no sentiment,mixed sentiment,no sentiment,no sentiment
+row265,I got tail-on hibachi shrimp instead.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row569,"We ate in the dining room, could our meals have been served on plates??",neutral,no sentiment,neutral,3,negative,negative,no sentiment,no sentiment,no sentiment
+row677,Special chicken is also salted.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row648,We enjoyed a Kona Cobb salad that was delicious and abundant.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row164,But there is not much room for her to do that on an airplane.,neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,negative,no sentiment
+row48,"Yes, if you need something to bring to a Fourth of July Gathering and you just forgot, call them up and order a pound of roast pork.",positive,positive,neutral,3,no sentiment,positive,positive,positive,positive
+row162,There are limited on washer and dryer,neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row362,It appears to not be heavily used.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row244,We sat down inside to wait in the air conditioning.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row228,THEY ONLY HAVE CABINET WHAT HAPPENED TO DONATIONS,negative,negative,negative,1,negative,negative,negative,negative,negative
+row443,Have game fished all over the world so kinda know what I am talking about.,neutral,no sentiment,negative,2,no sentiment,no sentiment,positive,no sentiment,no sentiment
+row200,Kristin did an excellent job with the photography and even provided us with some of her favourite food spots.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row522,Friday and Saturday you can book the Chefs Experience.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row307,"Sincerely yours, CSN student Kelvin Remigio AGS-PRE-PTA",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row422,I tell her that my husband is active duty military & we'd like to visit the PUBLIC BEACH.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row76,Condos are as advertised & housekeeping is great.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row580,I WILL get it back and PROSECUTE!!!,negative,negative,negative,1,negative,negative,negative,negative,negative
+row506,They have '808SmartCars' and 'rent me' stickers all over them.,neutral,no sentiment,negative,2,negative,no sentiment,no sentiment,mixed sentiment,no sentiment
+row749,The meat was marinaded and made it very tender.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row195,Sadly when we went in we were told that they were out of all fruit that day so no strawberry or banana pancakes.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row117,I felt pressured to stay longer than intended and they kept me in the dark about how to get back.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row231,"Very friendly guy hosting and great selection of new comics toys, vintage/rare comics, and even dollar comics.",positive,positive,neutral,3,positive,positive,positive,positive,positive
+row279,It is a sad day indeed when you realize you locked your keys in the car :( I could even see them there taunting me!,negative,negative,positive,5,negative,negative,negative,negative,negative
+row373,It's expected by this point that the hours reflect,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row232,Fast not too expencive and its a good place.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row568,We had to go back to the airport and rent from another company.,negative,negative,negative,1,negative,no sentiment,no sentiment,negative,negative
+row454,"The port is basic and not too busy hosting I believe not more than 2 cruise ships, situated in the close neighbourhood of the airport and of the town centre doesn’t have too much to offer.",negative,negative,positive,4,negative,negative,mixed sentiment,negative,no sentiment
+row361,A few minutes later he delivers us a frozen hot chocolate (not our ordered item) and as we were in a rush we didn't have time to wait another 5 minutes to have it corrected.,negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row525,"Nice of the cashier to tip us that instead of ordering two orders of frings, you get more food if you just make a separate order of fries and onion rings.",positive,positive,neutral,3,positive,positive,positive,positive,positive
+row382,"Not the cheapest price, but it is gas.",neutral,no sentiment,neutral,3,mixed sentiment,no sentiment,no sentiment,no sentiment,mixed sentiment
+row694,Even my grand kids found books to read.,positive,positive,neutral,3,positive,no sentiment,positive,positive,positive
+row714,I wasn't sure if the branch at Pearl Ridge was open.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row352,We really enjoyed working together.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row139,Plus they want you to buy a new lock....,negative,negative,negative,1,negative,negative,no sentiment,negative,negative
+row120,Parking is pricey and internet is only free for the first 4 devices.,negative,negative,positive,4,negative,no sentiment,negative,negative,negative
+row115,"I do not wear my shoes in the house, we're in Hawai'i, barely anyone does.",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row470,"The burger we ordered, however, was quite tasty.",positive,positive,negative,2,positive,positive,positive,positive,positive
+row185,Made the mistake of going to the old address to sell a board and found a totally different surf shop that wouldn't tell us where these guys went.,negative,negative,positive,5,negative,negative,negative,negative,negative
+row360,Fun short river that we like to SUP on.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row135,Big waves a little much even on a mildly windy day.,negative,negative,positive,5,negative,mixed sentiment,mixed sentiment,negative,negative
+row593,Kinda run down looking inside!,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row284,"However we also rented a toddler bed and after about 5 days, we noticed that our 3 year old who was using the toddler bed and their bedding had all these red, round little bug bites.",negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row546,"Their steam was broken, so ordered brew coffe.",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,negative
+row134,"Not sure what happened, but one bag of mamon started to mold after 1 day.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row218,Even their milk options are 50% cocoa.,neutral,no sentiment,positive,4,negative,no sentiment,no sentiment,no sentiment,no sentiment
+row681,Make sure you price check here thoroughly and research the instrument yourself.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row395,It is about 100 metres from the beach.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row457,We were assured that things packed in the van pack will arrive safely to our new home.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,positive
+row566,Prior to coming here this time we stayed a week at Grand Hyatt Resort in Kauai that property is simply amazing from comfort to service.,positive,positive,negative,2,positive,positive,positive,positive,positive
+row302,"Only good thing is location, there's no Volcano between there and the NEX.",negative,negative,neutral,3,negative,negative,mixed sentiment,mixed sentiment,negative
+row699,Better than any of the McDonald's from where I'm from.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row664,"But that was not all, his vocabulary only consisted of the F bomb.",negative,negative,negative,2,negative,negative,negative,negative,negative
+row410,"Cuz company policy says used vehicles, even ones priced in same range as new ones, only get half a tank.",negative,negative,negative,1,negative,no sentiment,negative,negative,no sentiment
+row4,"It doesn't matter if your eating a piece of dried ""what ever,"" if it's in the land of paradise, who cares, it still tastes great!",positive,positive,neutral,3,positive,mixed sentiment,positive,positive,positive
+row13,You can even walk on the plane with a 24-pack of beer!,positive,positive,neutral,3,positive,no sentiment,positive,positive,positive
+row438,"Can someone franchise a Happy Lemon, Gong Cha or Shake Tea on this island?",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row324,But that much I can manage myself.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row674,"The room was new, and the atmosphere was bright and beautiful.",positive,positive,neutral,3,positive,positive,positive,positive,positive
+row433,It's close and it's convenient to work as usual like every place here it closes early I guess nobody can hold their liquor,negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row62,"The view, atmosphere, drinks and fish tacos were great 👍 Why 3 🌟?",positive,positive,neutral,3,mixed sentiment,positive,positive,positive,positive
+row208,Was really expecting the show to be more intimate.,negative,negative,neutral,3,negative,negative,mixed sentiment,no sentiment,negative
+row161,I went to Genki Sushi which can be considered a grill.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row592,The reviews and the photos looked very cool.,positive,positive,negative,1,positive,positive,positive,positive,positive
+row775,I live on Maui and had friends coming to visit with a baby- I ordered the delivery of a pack-n-play so that my guests would not need to lug one along.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,positive
+row469,"As I looked in my back mirror, saw the same haze film coated on the back window.",neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,negative,no sentiment
+row326,Specifically stated to them what bike I wanted.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row353,The workers taking orders at the register are always polite.,positive,positive,negative,2,positive,positive,positive,positive,positive
+row371,"I actually like going here to talk story and have drinks, nothing fancy.",positive,positive,negative,2,positive,positive,positive,positive,positive
+row178,I asked another guy what it will take for me to get my hair cut by him ...he says appointment...,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row768,Then he took us to show the vacation center.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row306,"If the waiter hadn't been so nice, I would feel more comfortable saying how poor the service was.",negative,negative,neutral,3,mixed sentiment,negative,mixed sentiment,negative,negative
+row341,"However, the food was disappointing.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row613,It is my fault for not asking for prices in advance.,neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row97,The manager was very nice and professional.,positive,positive,negative,1,positive,positive,positive,positive,positive
+row184,Except this time we went to the comprehensive clinic in Kapolei.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row386,Felt very rushed by the captain of the boat to just jump in without being fully safety checked before going in.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row628,After calling 4 times over over 2 days and never getting an answer we decided to just go check it out.,negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row698,Different-location returns (pick up here and return at the airport) will also be much more expensive than same-location returns.,negative,negative,neutral,3,negative,negative,no sentiment,negative,negative
+row455,I found Kaizen Dental in downtown Honolulu online.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row202,The sandwiches are freshly made to go and are priced reasonably.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row159,Double check what they put in your bag before you leave and allow extra time for them to redo your order.,negative,negative,negative,2,negative,negative,mixed sentiment,negative,no sentiment
+row348,To be fair they offered to swap it with another vehicle.,neutral,no sentiment,negative,2,mixed sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row675,I found T's Hair and Nail through Google search.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row146,"The painting job was sloppy, massage was subpar, and it was just a horrible experience.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row710,I went here for a pre-employment drug test and physical evaluation.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row281,It was like eating beef candy.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row303,Same experience my mom had but with a different hairstylist.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row61,"The beach itself is relatively deserted, salt & pepper sand with decent snorkelling.",positive,positive,neutral,3,positive,no sentiment,positive,no sentiment,positive
+row150,I had to call another salon to fix my hair...,negative,negative,negative,1,negative,negative,no sentiment,no sentiment,negative
+row78,Barely saw anything and visibility was poor.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row732,Some lenses can be done same day.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row736,It was the same as before………… Chocolate baked goods are delicious.,positive,positive,neutral,3,mixed sentiment,no sentiment,positive,positive,positive
+row203,Go in the morning with small boat when it is calmer and quieter.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row636,"Inter-personally, everyone that I interacted with at the LD-ADHD Center was great.",positive,positive,negative,2,positive,positive,positive,positive,positive
+row651,"Goodyear checked the rims, NOT bent and replaced the tires.",positive,positive,negative,1,no sentiment,positive,positive,positive,positive
+row558,She took a boogie board so that my mom could hang on to that if she got tired.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,positive
+row721,I went to Kihei Rent A Car instead.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row475,I usually come here because she’s fast.,neutral,no sentiment,negative,1,no sentiment,positive,positive,no sentiment,no sentiment
+row155,Especially do not eat lasagna.,negative,negative,negative,1,negative,no sentiment,negative,negative,negative
+row511,A big gym with lots of options.,neutral,no sentiment,neutral,3,no sentiment,no sentiment,positive,no sentiment,positive
+row478,Thought this was a place for Women who needed emergency assistance?,negative,negative,negative,1,negative,,mixed sentiment,negative,negative
+row403,"It's one of two decent cigar shops on Oahu, so give it a shot.",positive,positive,neutral,3,positive,positive,positive,positive,positive
+row769,We actually had some friends get married the day before us and we attended their wedding.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row526,Call ahead and make a reservation.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row136,However you can get the same dives at cheaper prices elsewhere.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row0,Establishment that consistently serves good food + great service.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row93,The Ice Cream was really good.,positive,positive,negative,2,positive,positive,positive,positive,positive
+row474,Was quite choppy and the sand was all churned up.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row582,"Service was mediocre, there was no line so I wasn't sure why it took almost 7-10 minutes to take my order.",negative,negative,neutral,3,mixed sentiment,negative,negative,negative,negative
+row693,I went several times on my vacation.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row745,"The dropoff in Seattle went quickly and smoothly, as did the pickup in Hilo.",positive,positive,neutral,3,positive,no sentiment,positive,positive,positive
+row672,He asked me what I thought was fair and I said that I thought it was fair for me to leave with my car in the same condition as when I brought itin.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row759,Set on a farm with home grown ingredients.,neutral,no sentiment,positive,5,no sentiment,no sentiment,positive,no sentiment,positive
+row6,I have gone to Sigs in the past with a prior accident and the body work was acceptable.,neutral,no sentiment,negative,1,mixed sentiment,no sentiment,positive,no sentiment,no sentiment
+row509,"Don’t be fooled this coffee shop is next to the reception, opposite side of the foyer to the tickets/concierge.",neutral,no sentiment,neutral,3,no sentiment,no sentiment,no sentiment,no sentiment,negative
+row547,And very quiet spent every night onothe balcony.,neutral,no sentiment,neutral,3,no sentiment,no sentiment,positive,no sentiment,positive
+row627,"Not much from the islands, mostly from the Caribbean.",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row458,I payed and when I got my order we asked them about the $12.00 and they said I ordered TWO.,negative,negative,negative,2,negative,negative,mixed sentiment,negative,negative
+row576,Temp checks masks and sanitizer at the door.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row10,Refusing to expedite paperwork to meet surgery dates you accepted knowing you did not have accreditation from the care providers before hand IS ON YOU.,negative,negative,positive,4,negative,negative,negative,negative,negative
+row449,It was an emergency and I needed help locating the leak that was destroying my wall and carpet.,neutral,no sentiment,positive,5,no sentiment,no sentiment,mixed sentiment,no sentiment,no sentiment
+row63,I have been using this kennel since we first moved here in 201.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row43,Everything is really expensive in Hawaii.,negative,negative,neutral,3,no sentiment,negative,no sentiment,negative,negative
+row245,Moana Events is another store within the shopping square.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row550,"Now, I'm not a Carnitas expert but My family is from Mexico and I have had many many Carnitas plates.",neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row562,Water is often dirty due to people not picking up after themselves.,negative,negative,positive,4,negative,no sentiment,negative,negative,negative
+row638,Next to it is the Jersey Mike's sandwich shop right next door.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row129,Didn't thank or comp us for letting another couple sit with us.,negative,negative,neutral,3,negative,no sentiment,negative,negative,negative
+row667,"Some people have found real interesting stuff, from beehives to lava trees.",positive,positive,positive,4,positive,no sentiment,positive,no sentiment,positive
+row733,Its supposed to be fast food people!!!,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row98,First DO NOT question the integrity of my review or when I choose to review.,neutral,no sentiment,negative,1,negative,negative,no sentiment,no sentiment,no sentiment
+row143,This place is about a 2 at best.,negative,negative,negative,1,negative,negative,negative,negative,negative
+row534,"Decent stop, good warmup hike!",positive,positive,positive,4,positive,positive,positive,positive,positive
+row268,Our server seemed overwhelmed with his workload and unable to answer our questions regarding gluten-free and cross contamination risks for our Coeliac family members (celiac for our USA friends).,negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row588,This was more expensive than any other Starbucks I have ever visited.,negative,negative,positive,4,no sentiment,negative,no sentiment,negative,negative
+row531,On first Sundays and special occasions there is only one service at 0945.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row49,My carpet needed to be cleaned in the shop.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row411,The tartare was a work of art.,positive,positive,negative,2,positive,positive,positive,positive,positive
+row104,"Not much good stuff, kinda expensive.",negative,negative,positive,4,negative,negative,negative,negative,negative
+row404,"Again they have some amazing employees, that do the work of many.",positive,positive,neutral,3,positive,positive,positive,positive,positive
+row359,Maybe it means more if you are Buddhist.,neutral,no sentiment,negative,2,mixed sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row345,Only eight passengers on the boat.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row668,They told us that we can get a free picture and ended up paying 20 bucks for our picture.,negative,negative,negative,2,negative,negative,negative,negative,negative
+row222,"We also had a kitchen cabinet fall right off the hinge, which had been super glued instead of nailed in.",negative,negative,neutral,3,negative,negative,negative,negative,negative
+row111,This place has been here forever.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row556,Only warning is one the captain turns on the joke machine he will not stop.,negative,negative,positive,5,mixed sentiment,negative,mixed sentiment,negative,negative
+row144,Use the web to do some research before you go.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row572,The storefront was empty and sign posted indicating last day of service was 31JUL.,neutral,no sentiment,positive,4,no sentiment,no sentiment,negative,no sentiment,negative
+row276,"I had chicken broth ramen in Kyoto once and was disappointed, so initially I regretted sitting down after finding out about the broth base.",negative,negative,positive,4,negative,negative,mixed sentiment,negative,negative
+row756,We have been in Hawaii for 10 years.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row512,And then I caught them playing around my new tires.,neutral,no sentiment,negative,1,negative,no sentiment,no sentiment,negative,no sentiment
+row56,"We were going the international market in Kehei but found it too trinkety, touristy and expensive.",negative,negative,positive,5,negative,negative,negative,negative,negative
+row637,Employees didn't come to see if we needed any help.,negative,negative,neutral,3,negative,negative,negative,negative,negative
+row170,"Your internet speed will, at best be half of what you paid for.",negative,negative,negative,1,negative,negative,negative,negative,negative
+row263,NOT TO MENTION THE ICING WAS NOTHING TO RAVE ABOUT!!,negative,negative,negative,1,negative,negative,negative,negative,negative
+row41,A better attitude would have improved the experience significantly.,negative,negative,neutral,3,negative,negative,mixed sentiment,no sentiment,negative
+row191,You can bring the kids to play!,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row571,"They do sell some homemade food, which isn't too bad.",positive,positive,neutral,3,mixed sentiment,positive,positive,positive,positive
+row513,They don't tell you that they have a stamp card unless you ask.,neutral,no sentiment,neutral,3,negative,negative,no sentiment,no sentiment,no sentiment
+row36,"When the sandwich came it was on wheat, which I could have dealt with and didn't send back, however this sandwich was pretty bad.",negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row241,Our instructor even pulled my friend behind him because her arms were getting tired.,positive,positive,neutral,3,positive,no sentiment,positive,negative,positive
+row251,My wife called the dentist office to ask them to phone in a prescription for an antibiotic.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row765,But again durkes was awesome!!!,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row590,"They are efficient, I'll say that.",positive,positive,neutral,3,no sentiment,positive,positive,positive,positive
+row793,"I wanted a simple order, ramen no vegetables.",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row744,They don't have all the drinks and cannot take Starbucks gift cards or rewards.,negative,negative,neutral,3,negative,negative,mixed sentiment,negative,negative
+row343,Ate there twice on this trip to Kauai.,neutral,no sentiment,positive,4,no sentiment,no sentiment,positive,no sentiment,no sentiment
+row9,My order shipped within 2 days.,positive,positive,positive,5,positive,no sentiment,positive,positive,positive
+row555,Where the concerned customer service for their clients safety?,negative,negative,neutral,3,negative,no sentiment,no sentiment,negative,negative
+row456,Closest thing to a used car dealer I’ve experienced.,negative,negative,negative,2,negative,negative,negative,negative,negative
+row157,"Recently, I scheduled an appointment because I had a huge ant problem that developed quickly.",neutral,no sentiment,positive,5,no sentiment,no sentiment,mixed sentiment,no sentiment,no sentiment
+row614,"When I got back to my unit, 75 mins away I was able to find proof that I was covered so the next day I drove the 75 mins back to the dollar rental building and talked to a different guy.",neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row165,"Got my speeding ticket amended to a lower fine and crime, and now I can get on with my life.",positive,positive,negative,2,positive,positive,positive,positive,positive
+row498,I know that my taxes will be done correctly .,positive,positive,positive,5,positive,no sentiment,positive,no sentiment,positive
+row58,I was in a 'relaxed' mode I have never been in before.,positive,positive,positive,5,positive,no sentiment,positive,no sentiment,positive
+row600,"Some of the favorites are the pasta dishes, baked rice dishes and the won ton min.",positive,positive,neutral,3,no sentiment,no sentiment,positive,positive,positive
+row718,He also recently treated a very young patient of mine which I was unable to help through Chinese Medicine.,neutral,no sentiment,positive,5,negative,no sentiment,no sentiment,no sentiment,no sentiment
+row472,Only people in the place and over 30 minutes for a medium pizza.,negative,negative,neutral,3,negative,negative,no sentiment,negative,negative
+row294,I recently came to O'Reilley because my car was having issues starting.,neutral,no sentiment,positive,5,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row301,Shanghai soup dumplings a specialty.,neutral,no sentiment,positive,4,no sentiment,no sentiment,positive,no sentiment,no sentiment
+row791,I hope millions read this ad and voice their opinions.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row388,They have so many classes a day with only so many participants at a time.,neutral,no sentiment,positive,4,no sentiment,no sentiment,no sentiment,negative,no sentiment
+row689,"Usually Enterprise folks have gone out of their way to help customers, any customer.",positive,positive,neutral,3,positive,no sentiment,positive,positive,positive
+row342,He showed up at 1:30pm AS INSTRUCTED by a receptionist and did not leave the clinic until 6pm.,neutral,no sentiment,negative,1,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row528,Our wonderful guide recommended in the future to get felt bottom water shoes because they don't slide off rocks.,positive,positive,neutral,3,positive,positive,positive,positive,positive
+row73,They took it to the back and readjusted everything and said they had to order another part for the trims but it covered under the insurance claim.,neutral,no sentiment,neutral,3,mixed sentiment,no sentiment,no sentiment,no sentiment,no sentiment
+row554,I've been going to South Seas by the airport.,neutral,no sentiment,negative,2,no sentiment,no sentiment,no sentiment,no sentiment,no sentiment

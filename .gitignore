@@ -148,3 +148,68 @@ __MACOSX/
 __pycache__/
 .pytest_cache/
 *.bin
+
+
+# ---------------------------------------------------------------
+# Data and models are NOT committed. Everything here is either a
+# public download or is rebuilt by the scripts in replication/.
+#   review-Hawaii.json.gz    290 MB  (Google Local Reviews release)
+#   amazon_train.csv        1.28 GB  (rebuilt by external_data.py)
+#   dynasent-v1.1.zip         17 MB  (public DynaSent release)
+# GitHub rejects any single file over 100 MB.
+# ---------------------------------------------------------------
+
+data/
+dynasent-v1.1/
+models/
+logs/
+__MACOSX/
+*.bin
+*.zip
+*.gz
+*.json.gz
+*.jsonl.gz
+
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+venv8240/
+venv/
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# ---------------------------------------------------------------
+# Editor and OS
+# ---------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------
+# LaTeX build artefacts (keep main.tex, references.bib, the PDF)
+# ---------------------------------------------------------------
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+
+# ---------------------------------------------------------------
+# KEEP, explicitly — these are the evidence behind the paper and
+# the negation rules must come after the patterns above.
+# ---------------------------------------------------------------
+!results/
+!results/*.csv
+!results/*.jsonl
+!results/*.txt
+!replication/results/*.csv
+!replication/results/*.tex
+!.gitignore

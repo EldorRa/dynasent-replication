@@ -1,0 +1,10 @@
+\begin{tabular}{lllrrrrrrrr}
+\toprule
+ model & split &      text\_field &     n &  positive &  negative &  neutral &  macro\_f1 &  neutral\_gap &  paper\_neutral &  neutral\_vs\_paper \\
+\midrule
+model0 &  test &    content only & 25000 &      89.6 &      86.2 &     54.3 &      76.7 &         33.6 &           53.7 &               0.6 \\
+model0 &  test & title + content & 25000 &      90.5 &      87.3 &     56.6 &      78.1 &         32.4 &           53.7 &               2.9 \\
+model1 &  test &    content only & 25000 &      83.7 &      78.4 &     55.8 &      72.6 &         25.3 &           55.4 &               0.4 \\
+model1 &  test & title + content & 25000 &      85.1 &      80.2 &     57.9 &      74.4 &         24.7 &           55.4 &               2.5 \\
+\bottomrule
+\end{tabular}
